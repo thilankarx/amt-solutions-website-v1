@@ -1,15 +1,16 @@
 # AMT Solutions — SEO + AIEO Audit & Compliance Report
-*Updated: 2026-08-15 | Auditor: Senior SEO / AIEO Auditor*
+*Updated: 2026-08-17 | Auditor: Senior SEO / AIEO Auditor*
 
 ---
 
-## 1. Canonical Site Inventory (13 URLs)
+## 1. Canonical Site Inventory (14 URLs)
 
 | URL | Title | Meta Description | H1 | Schema Type(s) | Canonical | Robots | Status |
 |---|---|---|---|---|---|---|---|
 | `/` | AMT Solutions \| CCTV, Security & Smart Technology Sri Lanka | AMT Solutions (Pvt) Ltd designs and installs CCTV, access control, fire alarm, networking, home automation and PABX communication systems... | Security & Smart Technology Solutions for Homes and Businesses in Sri Lanka | LocalBusiness, SecuritySystemInstaller, WebSite | ✅ | index,follow | ✅ DONE |
 | `/about/` | About AMT Solutions \| Security & Smart Technology Integrator Sri Lanka | AMT Solutions (Pvt) Ltd has been providing CCTV... since 2014 | Security and smart technology integration in Sri Lanka since 2014 | LocalBusiness, SecuritySystemInstaller, BreadcrumbList | ✅ | index,follow | ✅ DONE |
 | `/services/` | Security & Smart Technology Services \| AMT Solutions Sri Lanka | AMT Solutions provides CCTV installation, access control... | Integrated security, connectivity and smart technology solutions | LocalBusiness, SecuritySystemInstaller, BreadcrumbList | ✅ | index,follow | ✅ DONE |
+| `/shop/` | Shop CCTV, Security & Technology Equipment \| AMT Solutions Sri Lanka | Shop CCTV cameras, AcuSense 4K NVRs, Smart Hybrid Light cameras, PTZ systems, and security equipment in Sri Lanka. Request quotation or book installation from AMT Solutions. | Shop Security & Technology Products | LocalBusiness, CollectionPage, ItemList, BreadcrumbList | ✅ | index,follow | ✅ DONE |
 | `/projects/` | Security & Technology Projects \| AMT Solutions Sri Lanka | Selected CCTV, access control, fire alarm, networking... | Selected security and technology installations by AMT Solutions | LocalBusiness, SecuritySystemInstaller, BreadcrumbList | ✅ | index,follow | ✅ DONE |
 | `/contact/` | Contact AMT Solutions \| CCTV & Security Systems Kandy & Sri Lanka | Contact AMT Solutions (Pvt) Ltd for CCTV installation, security systems, and smart technology in Kandy and across Sri Lanka... | Get in touch for CCTV, security & smart technology | LocalBusiness, ContactPage, BreadcrumbList | ✅ | index,follow | ✅ DONE |
 | `/cctv-installation-kandy/` | CCTV Installation Kandy \| CCTV Camera Solutions \| AMT Solutions | Professional CCTV installation in Kandy for homes, offices and businesses. Get CCTV camera system planning, installation and support from AMT Solutions. | CCTV Installation in Kandy | LocalBusiness, SecuritySystemInstaller, Service, FAQPage, BreadcrumbList | ✅ | index,follow | ✅ DONE |
@@ -34,4 +35,5 @@
   - `Monday` – `Saturday`: `08:00` to `18:30`
   - `Sunday`: `08:00` to `12:30`
 - **FAQ Schema**: Fully populated with 10 questions on `/cctv-installation-kandy/`.
+- **Shop Catalog Schema**: `CollectionPage` + `ItemList` on `/shop/`.
 - **Breadcrumbs**: Embedded on all subpages.

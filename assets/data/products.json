@@ -1,0 +1,1683 @@
+{
+  "departments": [
+    {
+      "id": "all",
+      "name": "All Categories",
+      "icon": "🗂️",
+      "description": "Browse all security and smart technology equipment from AMT Solutions."
+    },
+    {
+      "id": "cctv",
+      "name": "CCTV & Surveillance",
+      "icon": "📹",
+      "description": "Professional IP cameras, Smart Hybrid Light, PTZ systems, and 4K AcuSense NVR recorders.",
+      "subCategories": [
+        {
+          "id": "all-cctv",
+          "name": "All CCTV"
+        },
+        {
+          "id": "bullet-cameras",
+          "name": "Bullet Cameras"
+        },
+        {
+          "id": "dome-cameras",
+          "name": "Vandal Domes"
+        },
+        {
+          "id": "turret-cameras",
+          "name": "Turrets / Eyeball"
+        },
+        {
+          "id": "ptz-cameras",
+          "name": "PTZ & 4G Solar"
+        },
+        {
+          "id": "nvr-recorders",
+          "name": "NVR Recorders"
+        }
+      ]
+    },
+    {
+      "id": "pos",
+      "name": "POS Systems",
+      "icon": "💳",
+      "description": "Point of sale terminals, barcode scanners, thermal receipt printers, and cash management hardware.",
+      "subCategories": [
+        {
+          "id": "pos-terminals",
+          "name": "POS Terminals"
+        },
+        {
+          "id": "barcode-scanners",
+          "name": "Barcode Scanners"
+        },
+        {
+          "id": "receipt-printers",
+          "name": "Receipt Printers"
+        },
+        {
+          "id": "cash-drawers",
+          "name": "Cash Drawers"
+        }
+      ]
+    },
+    {
+      "id": "fire-alarm",
+      "name": "Fire Alarm Systems",
+      "icon": "🚨",
+      "description": "Conventional and addressable fire alarm panels, optical smoke detectors, heat sensors, and manual call points.",
+      "subCategories": [
+        {
+          "id": "smoke-detectors",
+          "name": "Smoke Detectors"
+        },
+        {
+          "id": "heat-detectors",
+          "name": "Heat Detectors"
+        },
+        {
+          "id": "control-panels",
+          "name": "Alarm Panels"
+        },
+        {
+          "id": "sounders-beacons",
+          "name": "Sounders & Beacons"
+        }
+      ]
+    },
+    {
+      "id": "access-control",
+      "name": "Access Control",
+      "icon": "🔐",
+      "description": "Biometric facial/fingerprint terminals, RFID card readers, magnetic door locks, and time attendance devices.",
+      "subCategories": [
+        {
+          "id": "biometric-readers",
+          "name": "Biometric & Facial Terminals"
+        },
+        {
+          "id": "rfid-readers",
+          "name": "RFID Card Readers"
+        },
+        {
+          "id": "magnetic-locks",
+          "name": "Magnetic & Electric Locks"
+        }
+      ]
+    },
+    {
+      "id": "networking",
+      "name": "Networking & Cabling",
+      "icon": "🌐",
+      "description": "Cat6/Cat6A structured cabling, gigabit PoE switches, server racks, and enterprise Wi-Fi access points.",
+      "subCategories": [
+        {
+          "id": "poe-switches",
+          "name": "PoE Switches"
+        },
+        {
+          "id": "server-racks",
+          "name": "Server Racks"
+        },
+        {
+          "id": "cabling",
+          "name": "Network Cabling"
+        },
+        {
+          "id": "access-points",
+          "name": "Wi-Fi Access Points"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "ds-2cd1023g0e-i",
+      "model": "DS-2CD1023G0E-I",
+      "name": "Hikvision 2MP Fixed Bullet Network Camera",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "bullet-cameras",
+      "subCategoryName": "Bullet IP Cameras",
+      "badge": "2MP · 1080p",
+      "image": "/assets/img/products/DS-2CD1023G0E-I.jpg",
+      "resolution": "2MP",
+      "highlights": [
+        "2MP Full HD (1920 × 1080) Resolution",
+        "30m Infrared (IR) Night Vision",
+        "IP67 Weatherproof & Dust Protection",
+        "Efficient H.265+ Compression Technology",
+        "Digital WDR for clear imaging against strong backlight"
+      ],
+      "specs": {
+        "Camera Type": "Fixed Bullet IP Camera",
+        "Image Sensor": "1/2.8\" Progressive Scan CMOS",
+        "Max Resolution": "1920 × 1080 (2MP @ 30fps)",
+        "Lens Options": "2.8 mm / 4 mm Fixed Lens",
+        "IR Range": "Up to 30 meters",
+        "Protection": "IP67 Weatherproof",
+        "Power Supply": "12 VDC ± 25%, PoE (802.3af, class 3)"
+      },
+      "description": "Reliable 2MP Full HD fixed bullet IP camera designed for outdoor perimeter surveillance, residential gates, and commercial building exteriors."
+    },
+    {
+      "id": "ds-2cd1023g2-liu",
+      "model": "DS-2CD1023G2-LIU",
+      "name": "Hikvision 2MP Smart Hybrid Light Bullet Camera with Built-in Mic",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "bullet-cameras",
+      "subCategoryName": "Bullet IP Cameras",
+      "badge": "2MP · Smart Hybrid Light",
+      "image": "/assets/img/products/DS-2CD1023G2-LIU.jpg",
+      "resolution": "2MP",
+      "highlights": [
+        "2MP (1920 × 1080) High-Resolution Imaging",
+        "Smart Hybrid Light: IR & Warm White LED (30m)",
+        "Built-in Microphone for Real-Time Audio Security",
+        "Human and Vehicle Motion Detection Support",
+        "IP67 Water and Dust Resistance"
+      ],
+      "specs": {
+        "Camera Type": "Smart Hybrid Light Bullet Camera",
+        "Image Sensor": "1/2.9\" Progressive Scan CMOS",
+        "Max Resolution": "1920 × 1080 (2MP @ 30fps)",
+        "Illumination": "Up to 30m Smart Hybrid Light (IR + White Light)",
+        "Audio": "Built-in Microphone",
+        "Protection": "IP67 Weatherproof",
+        "Power": "12 VDC ± 25% / PoE"
+      },
+      "description": "Advanced 2MP bullet camera with Smart Hybrid Light illumination, intelligent human/vehicle detection, and audio capture for enhanced perimeter monitoring."
+    },
+    {
+      "id": "ds-2cd1023g2-liuf-sl",
+      "model": "DS-2CD1023G2-LIUF/SL",
+      "name": "Hikvision 2MP Smart Hybrid Light Bullet with Active Strobe & Siren",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "bullet-cameras",
+      "subCategoryName": "Bullet IP Cameras",
+      "badge": "2MP · Strobe & Siren Alarm",
+      "image": "/assets/img/products/DS-2CD1023G2-LIUF_SL.jpg",
+      "resolution": "2MP",
+      "highlights": [
+        "2MP High Resolution with Smart Hybrid Light (30m)",
+        "Active Strobe Light & Audio Alarm Siren Deterrence",
+        "Two-Way Audio with Built-in Mic & Speaker",
+        "Built-in MicroSD Slot for On-Board Storage (up to 512GB)",
+        "IP67 Weather-Resistant Metal & Plastic Housing"
+      ],
+      "specs": {
+        "Camera Type": "Active Deterrence Bullet IP Camera",
+        "Image Sensor": "1/2.9\" Progressive Scan CMOS",
+        "Max Resolution": "1920 × 1080 (2MP)",
+        "Active Defense": "Red/Blue Strobe Light & Audio Warning Alarm",
+        "Audio": "Two-Way Audio (Mic & High-Decibel Speaker)",
+        "Storage": "Built-in MicroSD/SDHC/SDXC slot, up to 512 GB",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "Active deterrence 2MP bullet camera that actively scares off intruders with strobe lighting and custom audible sirens upon detecting unauthorized movement."
+    },
+    {
+      "id": "ds-2cd1043g2-liu",
+      "model": "DS-2CD1043G2-LIU",
+      "name": "Hikvision 4MP 2K Smart Hybrid Light Bullet with Mic",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "bullet-cameras",
+      "subCategoryName": "Bullet IP Cameras",
+      "badge": "4MP · 2K Resolution",
+      "image": "/assets/img/products/DS-2CD1043G2-LIU.jpg",
+      "resolution": "4MP",
+      "highlights": [
+        "4MP 2K (2560 × 1440) Crystal Clear Video",
+        "Smart Hybrid Light Technology (30m Night Vision)",
+        "Built-in Microphone for Real-Time Audio Capture",
+        "H.265+ Compression for Maximum Storage Savings",
+        "IP67 Weatherproof Rating"
+      ],
+      "specs": {
+        "Camera Type": "4MP Smart Hybrid Light Bullet Camera",
+        "Image Sensor": "1/3\" Progressive Scan CMOS",
+        "Max Resolution": "2560 × 1440 (4MP @ 20fps)",
+        "Illumination": "Up to 30m Smart Hybrid Light",
+        "Audio": "Built-in Microphone",
+        "Protection": "IP67 Weatherproof",
+        "Power": "12 VDC / PoE"
+      },
+      "description": "High-performance 4MP 2K bullet camera offering sharp facial recognition and vehicle license plate clarity under challenging day and night conditions."
+    },
+    {
+      "id": "ds-2cd1043g2-liuf-sl",
+      "model": "DS-2CD1043G2-LIUF/SL",
+      "name": "Hikvision 4MP Smart Hybrid Light Bullet with Strobe & Siren",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "bullet-cameras",
+      "subCategoryName": "Bullet IP Cameras",
+      "badge": "4MP · Active Deterrence",
+      "image": "/assets/img/products/DS-2CD1043G2-LIUF_SL.jpg",
+      "resolution": "4MP",
+      "highlights": [
+        "4MP 2K Resolution with Smart Hybrid Light (30m)",
+        "Active Strobe Light Flashing & Audio Siren Alarm",
+        "Full Two-Way Audio Communication (Mic & Speaker)",
+        "Built-in Memory Card Slot (up to 512GB)",
+        "Smart Human & Vehicle Motion Classification"
+      ],
+      "specs": {
+        "Camera Type": "4MP Active Deterrence Bullet Camera",
+        "Image Sensor": "1/3\" Progressive Scan CMOS",
+        "Max Resolution": "2560 × 1440 (4MP)",
+        "Active Defense": "Strobe Light & Audio Alarm",
+        "Audio": "Built-in Mic & Speaker (Two-Way Audio)",
+        "Storage": "MicroSD card slot up to 512 GB",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "Flagship 4MP active defense camera combining crystal clear 2K video, warm white night light, two-way talk, and active strobe alarms for homes and commercial premises."
+    },
+    {
+      "id": "ds-2cd1063g2-liu",
+      "model": "DS-2CD1063G2-LIU",
+      "name": "Hikvision 6MP 3K Smart Hybrid Light Bullet with Mic",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "bullet-cameras",
+      "subCategoryName": "Bullet IP Cameras",
+      "badge": "6MP · 3K Resolution",
+      "image": "/assets/img/products/DS-2CD1063G2-LIU.jpg",
+      "resolution": "6MP",
+      "highlights": [
+        "6MP 3K (3200 × 1800) Ultra-Clear Imaging",
+        "Smart Hybrid Light: Intelligent IR & White Light Modes (30m)",
+        "Built-in Microphone for Synchronized Audio Recording",
+        "Advanced 120 dB WDR for High Contrast Scenes",
+        "IP67 Heavy-Duty Weather Protection"
+      ],
+      "specs": {
+        "Camera Type": "6MP Smart Hybrid Light Bullet Camera",
+        "Image Sensor": "1/2.4\" Progressive Scan CMOS",
+        "Max Resolution": "3200 × 1800 (6MP @ 20fps)",
+        "WDR": "120 dB True WDR",
+        "Audio": "Built-in Microphone",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "Superior 6MP 3K IP camera offering wide field of view and ultra-fine detail for commercial properties, car parks, and corporate security."
+    },
+    {
+      "id": "ds-2cd1063g2-liuf-sl",
+      "model": "DS-2CD1063G2-LIUF/SL",
+      "name": "Hikvision 6MP Smart Hybrid Light Bullet with Strobe & Siren",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "bullet-cameras",
+      "subCategoryName": "Bullet IP Cameras",
+      "badge": "6MP · Strobe & Two-Way Talk",
+      "image": "/assets/img/products/DS-2CD1063G2-LIUF_SL.jpg",
+      "resolution": "6MP",
+      "highlights": [
+        "6MP 3K Ultra-High Definition Resolution",
+        "Active Flashing Strobe Light & Loud Audio Siren",
+        "Integrated Two-Way Audio Communication",
+        "Smart Hybrid Light Night Vision up to 30m",
+        "Built-in MicroSD Card Slot up to 512GB"
+      ],
+      "specs": {
+        "Camera Type": "6MP Active Deterrence Bullet Camera",
+        "Image Sensor": "1/2.4\" Progressive Scan CMOS",
+        "Max Resolution": "3200 × 1800 (6MP)",
+        "Active Defense": "Strobe Light & Audio Alarm Siren",
+        "Audio": "Two-Way Audio (Mic & Speaker)",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "High-end 6MP 3K surveillance camera combining ultra-sharp image clarity with instant physical deterrence and two-way voice communication."
+    },
+    {
+      "id": "ds-2cd1083g2-liu",
+      "model": "DS-2CD1083G2-LIU",
+      "name": "Hikvision 8MP 4K Ultra HD Smart Hybrid Light Bullet with Mic",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "bullet-cameras",
+      "subCategoryName": "Bullet IP Cameras",
+      "badge": "8MP · 4K Ultra HD",
+      "image": "/assets/img/products/DS-2CD1083G2-LIU.jpg",
+      "resolution": "8MP (4K)",
+      "highlights": [
+        "8MP 4K Ultra HD (3840 × 2160) Resolution",
+        "Smart Hybrid Light (30m IR / White Light)",
+        "Built-in High Sensitivity Microphone",
+        "H.265+ Compression for Optimized Bandwidth",
+        "IP67 Weather-Resistant Construction"
+      ],
+      "specs": {
+        "Camera Type": "8MP 4K Smart Hybrid Light Bullet Camera",
+        "Image Sensor": "1/2.7\" Progressive Scan CMOS",
+        "Max Resolution": "3840 × 2160 (8MP 4K @ 15fps)",
+        "Illumination": "Up to 30m Smart Hybrid Light",
+        "Audio": "Built-in Mic",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "True 4K 8MP bullet camera providing cinematic image sharpness, digital zoom clarity, and Smart Hybrid Light illumination for premium properties."
+    },
+    {
+      "id": "ds-2cd1083g2-liuf-sl",
+      "model": "DS-2CD1083G2-LIUF/SL",
+      "name": "Hikvision 8MP 4K Smart Hybrid Light Bullet with Strobe & Siren",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "bullet-cameras",
+      "subCategoryName": "Bullet IP Cameras",
+      "badge": "8MP 4K · Active Defense",
+      "image": "/assets/img/products/DS-2CD1083G2-LIUF_SL.jpg",
+      "resolution": "8MP (4K)",
+      "highlights": [
+        "8MP 4K Ultra HD Surveillance Imaging",
+        "Active Visual Strobe & Acoustic Siren Alarm",
+        "Full Two-Way Audio Communication with Built-in Speaker",
+        "Smart Hybrid Light Night Vision (30m)",
+        "IP67 Weatherproof Rating & 512GB SD Support"
+      ],
+      "specs": {
+        "Camera Type": "8MP 4K Active Defense Bullet Camera",
+        "Image Sensor": "1/2.7\" Progressive Scan CMOS",
+        "Max Resolution": "3840 × 2160 (8MP 4K)",
+        "Active Defense": "Strobe Light & Siren Alarm",
+        "Audio": "Two-Way Audio (Mic & Speaker)",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "The ultimate 4K active defense camera combining 8MP resolution, full night color capability, active intruder deterrence, and remote two-way talk."
+    },
+    {
+      "id": "ds-2cd1t23g2-liuf-sl",
+      "model": "DS-2CD1T23G2-LIUF/SL",
+      "name": "Hikvision 2MP Long-Range Smart Hybrid Light Bullet with Strobe & Siren",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "bullet-cameras",
+      "subCategoryName": "Bullet IP Cameras",
+      "badge": "2MP · 50m Long Range",
+      "image": "/assets/img/products/DS-2CD1T23G2-LIUF_SL.jpg",
+      "resolution": "2MP",
+      "highlights": [
+        "Extended Long-Range 50m Smart Hybrid Light",
+        "Active Defense Strobe Light & Audible Siren Alarm",
+        "Built-in Microphone & Speaker for Two-Way Talk",
+        "Large Form-Factor Metal Chassis for Enhanced Heat Dissipation",
+        "IP67 Waterproof & Dust Protection"
+      ],
+      "specs": {
+        "Camera Type": "Long-Range Active Defense Bullet Camera",
+        "Image Sensor": "1/2.9\" Progressive Scan CMOS",
+        "Max Resolution": "1920 × 1080 (2MP)",
+        "Illumination Range": "Up to 50 meters Long-Range Dual Light",
+        "Audio": "Two-Way Audio (Mic & Speaker)",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "Heavy-duty long-range 2MP bullet camera with 50-meter illumination range, active defense strobe, and siren for large perimeters, driveways, and factories."
+    },
+    {
+      "id": "ds-2cd1t43g2-liuf-sl",
+      "model": "DS-2CD1T43G2-LIUF/SL",
+      "name": "Hikvision 4MP Long-Range Smart Hybrid Light Bullet with Strobe & Siren",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "bullet-cameras",
+      "subCategoryName": "Bullet IP Cameras",
+      "badge": "4MP · 50m Long Range",
+      "image": "/assets/img/products/DS-2CD1T43G2-LIUF_SL.jpg",
+      "resolution": "4MP",
+      "highlights": [
+        "4MP 2K Imaging with Long-Range 50m Dual Light",
+        "Active Strobe Flasher & High-Decibel Siren Warning",
+        "Two-Way Audio with Built-in Mic and High-Power Speaker",
+        "On-Board MicroSD Card Slot up to 512GB",
+        "IP67 Weatherproof Heavy-Duty Metal Housing"
+      ],
+      "specs": {
+        "Camera Type": "4MP Long-Range Active Defense Bullet",
+        "Image Sensor": "1/3\" Progressive Scan CMOS",
+        "Max Resolution": "2560 × 1440 (4MP)",
+        "Illumination Range": "Up to 50 meters Long-Range",
+        "Audio": "Two-Way Audio (Mic & Speaker)",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "Long-distance 4MP 2K bullet camera engineered for estates, industrial yards, commercial entrances, and perimeter fences requiring up to 50m illumination."
+    },
+    {
+      "id": "ds-2cd1t63g2-liuf-sl",
+      "model": "DS-2CD1T63G2-LIUF/SL",
+      "name": "Hikvision 6MP Long-Range Smart Hybrid Light Bullet with Strobe & Siren",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "bullet-cameras",
+      "subCategoryName": "Bullet IP Cameras",
+      "badge": "6MP · 50m Long Range",
+      "image": "/assets/img/products/DS-2CD1T63G2-LIUF_SL.jpg",
+      "resolution": "6MP",
+      "highlights": [
+        "6MP 3K High-Definition Resolution",
+        "50m Long-Range Smart Hybrid Light Night Vision",
+        "Active Strobe & Siren Intrusion Warning System",
+        "Two-Way Audio Talk Capability",
+        "IP67 Heavy-Duty Weatherproof Protection"
+      ],
+      "specs": {
+        "Camera Type": "6MP Long-Range Active Defense Bullet",
+        "Image Sensor": "1/2.4\" Progressive Scan CMOS",
+        "Max Resolution": "3200 × 1800 (6MP)",
+        "Illumination Range": "Up to 50 meters Long-Range",
+        "Audio": "Two-Way Audio (Mic & Speaker)",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "Ultra-clear 6MP long-distance camera offering extensive perimeter coverage up to 50 meters with active acoustic and visual defense triggers."
+    },
+    {
+      "id": "ds-2cd1t83g2-liuf-sl",
+      "model": "DS-2CD1T83G2-LIUF/SL",
+      "name": "Hikvision 8MP 4K Long-Range Smart Hybrid Light Bullet with Strobe & Siren",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "bullet-cameras",
+      "subCategoryName": "Bullet IP Cameras",
+      "badge": "8MP 4K · 50m Long Range",
+      "image": "/assets/img/products/DS-2CD1T83G2-LIUF_SL.jpg",
+      "resolution": "8MP (4K)",
+      "highlights": [
+        "8MP 4K Ultra HD Ultra-Sharp Video Coverage",
+        "50m Long-Range Dual Smart Hybrid Illumination",
+        "Active Deterrence Strobe Light & Siren Alarm",
+        "Two-Way Audio with Speaker & Mic",
+        "IP67 Heavy-Duty Rating for Harsh Weather Conditions"
+      ],
+      "specs": {
+        "Camera Type": "8MP 4K Long-Range Active Defense Bullet",
+        "Image Sensor": "1/2.7\" Progressive Scan CMOS",
+        "Max Resolution": "3840 × 2160 (8MP 4K)",
+        "Illumination Range": "Up to 50 meters Long-Range",
+        "Audio": "Two-Way Audio (Mic & Speaker)",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "Top-tier 4K 8MP long-range bullet camera for maximum surveillance reach, ultra-high optical detail, and intelligent deterrent alarms."
+    },
+    {
+      "id": "ds-2cd1123g0e-i",
+      "model": "DS-2CD1123G0E-I",
+      "name": "Hikvision 2MP Vandal-Proof Fixed Dome Network Camera",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "dome-cameras",
+      "subCategoryName": "Dome IP Cameras",
+      "badge": "2MP · IK10 Vandal-Proof",
+      "image": "/assets/img/products/DS-2CD1123G0E-I.jpg",
+      "resolution": "2MP",
+      "highlights": [
+        "2MP 1080p High-Quality Video",
+        "IK10 Vandal-Resistant Reinforced Dome Cover",
+        "IP67 Weather & Water Resistance",
+        "30m Infrared (IR) Night Vision Range",
+        "Compact, Low-Profile Ceiling/Wall Mounting"
+      ],
+      "specs": {
+        "Camera Type": "Vandal-Resistant Dome IP Camera",
+        "Image Sensor": "1/2.8\" Progressive Scan CMOS",
+        "Max Resolution": "1920 × 1080 (2MP)",
+        "Impact Protection": "IK10 Vandal-Proof",
+        "Weather Protection": "IP67 Weatherproof",
+        "IR Range": "Up to 30 meters"
+      },
+      "description": "Tamper-resistant 2MP dome camera designed for public areas, retail corridors, schools, hotel lobbies, and areas prone to physical impact."
+    },
+    {
+      "id": "ds-2cd1123g2-liu",
+      "model": "DS-2CD1123G2-LIU",
+      "name": "Hikvision 2MP Smart Hybrid Light Vandal Dome with Built-in Mic",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "dome-cameras",
+      "subCategoryName": "Dome IP Cameras",
+      "badge": "2MP · IK10 & Mic",
+      "image": "/assets/img/products/DS-2CD1123G2-LIU.jpg",
+      "resolution": "2MP",
+      "highlights": [
+        "2MP Resolution with Smart Hybrid Light (30m)",
+        "IK10 Vandal-Proof & IP67 Weatherproof Rated",
+        "Built-in Microphone for Synchronized Audio Monitoring",
+        "Human and Vehicle Classification Detection",
+        "H.265+ Efficient Video Compression"
+      ],
+      "specs": {
+        "Camera Type": "Smart Hybrid Light Vandal Dome",
+        "Image Sensor": "1/2.9\" Progressive Scan CMOS",
+        "Max Resolution": "1920 × 1080 (2MP)",
+        "Impact Protection": "IK10 Vandal-Proof",
+        "Audio": "Built-in Microphone",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "Vandal-proof 2MP dome camera with Smart Hybrid Light technology and built-in audio for secure indoor and outdoor commercial installations."
+    },
+    {
+      "id": "ds-2cd1143g0-i",
+      "model": "DS-2CD1143G0-I",
+      "name": "Hikvision 4MP 2K Vandal-Proof Fixed Dome Network Camera",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "dome-cameras",
+      "subCategoryName": "Dome IP Cameras",
+      "badge": "4MP · IK10 Vandal-Proof",
+      "image": "/assets/img/products/DS-2CD1143G0-I.jpg",
+      "resolution": "4MP",
+      "highlights": [
+        "4MP 2K (2560 × 1440) High-Resolution Video",
+        "IK10 Impact-Resistant Vandal Dome Housing",
+        "30m Infrared (IR) Night Vision",
+        "120 dB True WDR for Glare and Shadow Compensation",
+        "IP67 Weather & Dust Proof Rating"
+      ],
+      "specs": {
+        "Camera Type": "4MP Vandal-Proof Dome IP Camera",
+        "Image Sensor": "1/3\" Progressive Scan CMOS",
+        "Max Resolution": "2560 × 1440 (4MP)",
+        "Impact Protection": "IK10 Vandal-Proof",
+        "WDR": "120 dB WDR",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "Robust 4MP 2K vandal dome camera providing superior image detail and tamper resistance for bank branches, retail stores, and commercial buildings."
+    },
+    {
+      "id": "ds-2cd1323g0e-i",
+      "model": "DS-2CD1323G0E-I",
+      "name": "Hikvision 2MP Fixed Turret / Eyeball Network Camera",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "turret-cameras",
+      "subCategoryName": "Turret / Eyeball IP Cameras",
+      "badge": "2MP · Eyeball Turret",
+      "image": "/assets/img/products/DS-2CD1323G0E-I.jpg",
+      "resolution": "2MP",
+      "highlights": [
+        "2MP 1080p Full HD Imaging",
+        "Eyeball Turret Design (No Dome Glare or Reflections)",
+        "30m EXIR Night Vision Illumination",
+        "IP67 Outdoor Weatherproof Rating",
+        "Easy 3-Axis Angle Adjustment"
+      ],
+      "specs": {
+        "Camera Type": "Fixed Turret IP Camera",
+        "Image Sensor": "1/2.8\" Progressive Scan CMOS",
+        "Max Resolution": "1920 × 1080 (2MP)",
+        "Night Vision": "Up to 30m EXIR",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "Versatile 2MP turret camera offering easy multi-axis positioning and clear night vision free of dome glass reflections for home and business interiors/exteriors."
+    },
+    {
+      "id": "ds-2cd1323g2-liuf-sl",
+      "model": "DS-2CD1323G2-LIUF/SL",
+      "name": "Hikvision 2MP Smart Hybrid Light Turret with Strobe & Siren",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "turret-cameras",
+      "subCategoryName": "Turret / Eyeball IP Cameras",
+      "badge": "2MP · Strobe & Siren Turret",
+      "image": "/assets/img/products/DS-2CD1323G2-LIUF_SL.jpg",
+      "resolution": "2MP",
+      "highlights": [
+        "2MP Resolution with Smart Hybrid Light (30m)",
+        "Active Strobe Light & Audio Siren Intrusion Deterrence",
+        "Two-Way Audio with Built-in Mic & Speaker",
+        "MicroSD Card Slot up to 512GB for Edge Recording",
+        "IP67 Weather Protection"
+      ],
+      "specs": {
+        "Camera Type": "Active Deterrence Turret IP Camera",
+        "Image Sensor": "1/2.9\" Progressive Scan CMOS",
+        "Max Resolution": "1920 × 1080 (2MP)",
+        "Active Defense": "Strobe Light & Audio Alarm",
+        "Audio": "Two-Way Audio (Mic & Speaker)",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "Active deterrence 2MP turret camera combining flexible angle mounting with strobe alarms, siren warnings, and two-way voice communication."
+    },
+    {
+      "id": "ds-2cd1343g2-liuf-sl",
+      "model": "DS-2CD1343G2-LIUF/SL",
+      "name": "Hikvision 4MP Smart Hybrid Light Turret with Strobe & Siren",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "turret-cameras",
+      "subCategoryName": "Turret / Eyeball IP Cameras",
+      "badge": "4MP · Active Deterrence",
+      "image": "/assets/img/products/DS-2CD1343G2-LIUF_SL.jpg",
+      "resolution": "4MP",
+      "highlights": [
+        "4MP 2K High Resolution Clarity",
+        "Smart Hybrid Light Technology (30m Dual Light)",
+        "Active Strobe Flashing & Audio Siren Alarm",
+        "Built-in Microphone & Speaker for Two-Way Talk",
+        "IP67 Rating & MicroSD Card Storage up to 512GB"
+      ],
+      "specs": {
+        "Camera Type": "4MP Active Deterrence Turret",
+        "Image Sensor": "1/3\" Progressive Scan CMOS",
+        "Max Resolution": "2560 × 1440 (4MP)",
+        "Active Defense": "Strobe Light & Siren Alarm",
+        "Audio": "Two-Way Audio (Mic & Speaker)",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "Popular 4MP 2K turret camera with Smart Hybrid Light and active deterrence, providing top-quality surveillance for modern residences and offices."
+    },
+    {
+      "id": "ds-2cd1363g2-liuf-sl",
+      "model": "DS-2CD1363G2-LIUF/SL",
+      "name": "Hikvision 6MP Smart Hybrid Light Turret with Strobe & Siren",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "turret-cameras",
+      "subCategoryName": "Turret / Eyeball IP Cameras",
+      "badge": "6MP 3K · Strobe & Siren",
+      "image": "/assets/img/products/DS-2CD1363G2-LIUF_SL.jpg",
+      "resolution": "6MP",
+      "highlights": [
+        "6MP 3K (3200 × 1800) Ultra-Clear Imaging",
+        "Smart Hybrid Light (IR + Warm Light up to 30m)",
+        "Active Visual Strobe & Audio Alarm Warning",
+        "Full Two-Way Voice Intercom Support",
+        "IP67 Weatherproof Housing"
+      ],
+      "specs": {
+        "Camera Type": "6MP Active Deterrence Turret",
+        "Image Sensor": "1/2.4\" Progressive Scan CMOS",
+        "Max Resolution": "3200 × 1800 (6MP)",
+        "Active Defense": "Strobe Light & Siren Alarm",
+        "Audio": "Two-Way Audio (Mic & Speaker)",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "High-resolution 6MP 3K turret camera offering superior wide-angle clarity, active intrusion deterrence, and seamless ceiling/wall mounting."
+    },
+    {
+      "id": "ds-2cd1383g2-liuf-sl",
+      "model": "DS-2CD1383G2-LIUF/SL",
+      "name": "Hikvision 8MP 4K Smart Hybrid Light Turret with Strobe & Siren",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "turret-cameras",
+      "subCategoryName": "Turret / Eyeball IP Cameras",
+      "badge": "8MP 4K · Active Defense",
+      "image": "/assets/img/products/DS-2CD1383G2-LIUF_SL.jpg",
+      "resolution": "8MP (4K)",
+      "highlights": [
+        "8MP 4K Ultra HD (3840 × 2160) Video Precision",
+        "Smart Hybrid Light Night Vision (30m)",
+        "Active Defense Strobe & Siren Deterrent",
+        "Two-Way Audio Communication (Mic & Speaker)",
+        "IP67 Weatherproof Rating & 512GB SD Storage"
+      ],
+      "specs": {
+        "Camera Type": "8MP 4K Active Deterrence Turret",
+        "Image Sensor": "1/2.7\" Progressive Scan CMOS",
+        "Max Resolution": "3840 × 2160 (8MP 4K)",
+        "Active Defense": "Strobe Light & Siren Alarm",
+        "Audio": "Two-Way Audio (Mic & Speaker)",
+        "Protection": "IP67 Weatherproof"
+      },
+      "description": "Premium 4K 8MP eyeball turret camera delivering maximum optical resolution, active strobe deterrents, and clear two-way audio for high-value properties."
+    },
+    {
+      "id": "ds-2de2c200mwg-e",
+      "model": "DS-2DE2C200MWG-E",
+      "name": "Hikvision 2MP Mini PTZ Network Camera with Smart Hybrid Light",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "ptz-cameras",
+      "subCategoryName": "PTZ & Smart Multi-Lens Cameras",
+      "badge": "2MP · Pan & Tilt",
+      "image": "/assets/img/products/DS-2DE2C200MWG-E.jpg",
+      "resolution": "2MP",
+      "highlights": [
+        "2MP 1080p Resolution with Motorized Pan & Tilt",
+        "340° Pan & 105° Tilt Remote Directional Control",
+        "Smart Hybrid Light: IR & Warm White LED (30m)",
+        "Built-in Microphone & Speaker for Two-Way Audio",
+        "IP66 Weatherproof Design for Outdoor Installation"
+      ],
+      "specs": {
+        "Camera Type": "Mini Pan-Tilt Network Camera",
+        "Image Sensor": "1/2.9\" Progressive Scan CMOS",
+        "Max Resolution": "1920 × 1080 (2MP)",
+        "PT Range": "Pan: 0° to 340°, Tilt: -5° to 105°",
+        "Illumination": "Up to 30m Smart Hybrid Light",
+        "Audio": "Two-Way Audio",
+        "Protection": "IP66 Weatherproof"
+      },
+      "description": "Affordable, compact motorized pan-tilt camera with remote smartphone control, two-way audio, and Smart Hybrid Light for complete backyard or store coverage."
+    },
+    {
+      "id": "ds-2de2c400mwg-e",
+      "model": "DS-2DE2C400MWG-E",
+      "name": "Hikvision 4MP Mini PTZ Network Camera with Smart Hybrid Light",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "ptz-cameras",
+      "subCategoryName": "PTZ & Smart Multi-Lens Cameras",
+      "badge": "4MP 2K · Pan & Tilt",
+      "image": "/assets/img/products/DS-2DE2C400MWG-E.jpg",
+      "resolution": "4MP",
+      "highlights": [
+        "4MP 2K (2560 × 1440) High-Resolution Pan & Tilt",
+        "Motorized 340° Pan & 105° Tilt Rotation via App",
+        "Smart Hybrid Light Illumination up to 30m",
+        "Built-in Two-Way Audio Intercom",
+        "IP66 Weather-Resistant Outdoor Housing"
+      ],
+      "specs": {
+        "Camera Type": "4MP Mini Pan-Tilt Network Camera",
+        "Image Sensor": "1/3\" Progressive Scan CMOS",
+        "Max Resolution": "2560 × 1440 (4MP)",
+        "PT Range": "Pan: 0° to 340°, Tilt: -5° to 105°",
+        "Audio": "Two-Way Audio (Mic & Speaker)",
+        "Protection": "IP66 Weatherproof"
+      },
+      "description": "Crisp 4MP 2K pan-tilt camera allowing you to remotely adjust camera direction from your mobile phone to eliminate all surveillance blind spots."
+    },
+    {
+      "id": "ds-2de2c400iwg-k-4g-c09s20",
+      "model": "DS-2DE2C400IWG-K/4G/C09S20",
+      "name": "Hikvision 4MP Standalone 4G Solar-Powered PTZ Security Camera",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "ptz-cameras",
+      "subCategoryName": "PTZ & Smart Multi-Lens Cameras",
+      "badge": "4MP · 4G LTE & Solar Powered",
+      "image": "/assets/img/products/DS-2DE2C400IWG-K_4G_C09S20.jpg",
+      "resolution": "4MP",
+      "highlights": [
+        "100% Wire-Free: Powered by Solar Panel & High-Capacity Battery",
+        "4G LTE Wireless SIM Card Connectivity (No Wi-Fi/Cabling Needed)",
+        "Motorized Pan & Tilt Directional Movement via Mobile App",
+        "PIR Human Detection & Active Smart Wake-Up",
+        "Ideal for Farms, Construction Sites, Remote Villas & Estates"
+      ],
+      "specs": {
+        "Camera Type": "4G Solar-Powered Wireless PTZ Camera",
+        "Image Sensor": "1/3\" Progressive Scan CMOS",
+        "Max Resolution": "2560 × 1440 (4MP 2K)",
+        "Connectivity": "Built-in 4G LTE Cellular Module (SIM Slot)",
+        "Power": "Solar Panel + Built-in Rechargeable Lithium Battery",
+        "Audio": "Two-Way Audio Communication",
+        "Protection": "IP66 Weatherproof"
+      },
+      "description": "Completely self-sufficient 4G LTE solar camera designed for agricultural farms, off-grid properties, remote construction sites, and locations without electricity or Wi-Fi."
+    },
+    {
+      "id": "ds-2se2c200mwg-e-12",
+      "model": "DS-2SE2C200MWG-E/12",
+      "name": "Hikvision 2MP TandemVu Dual-Lens Panoramic & PTZ Network Camera",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "ptz-cameras",
+      "subCategoryName": "PTZ & Smart Multi-Lens Cameras",
+      "badge": "2MP · TandemVu Dual Lens",
+      "image": "/assets/img/products/DS-2SE2C200MWG-E_12.jpg",
+      "resolution": "2MP",
+      "highlights": [
+        "TandemVu Dual-Lens Technology in One Camera Body",
+        "Fixed Panoramic Channel for 24/7 Color Overview (ColorVu)",
+        "Motorized PTZ Channel for Targeted Directional Surveillance",
+        "Smart Hybrid Light & Two-Way Audio Communication",
+        "IP66 Weatherproof Heavy-Duty Housing"
+      ],
+      "specs": {
+        "Camera Type": "TandemVu Dual-Lens PTZ Camera",
+        "Channels": "Channel 1: Fixed Panoramic; Channel 2: Motorized PTZ",
+        "Max Resolution": "1920 × 1080 (2MP) per channel",
+        "Night Vision": "ColorVu 24/7 Color Overview + Smart Hybrid PTZ",
+        "Audio": "Two-Way Audio",
+        "Protection": "IP66 Weatherproof"
+      },
+      "description": "Innovative TandemVu camera that monitors a constant panoramic overview while simultaneously allowing motorized PTZ pan-tilt tracking in the same unit."
+    },
+    {
+      "id": "ds-2se2c400mwg-e-14",
+      "model": "DS-2SE2C400MWG-E/14",
+      "name": "Hikvision 4MP TandemVu Dual-Lens Panoramic & PTZ Network Camera",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "ptz-cameras",
+      "subCategoryName": "PTZ & Smart Multi-Lens Cameras",
+      "badge": "4MP 2K · TandemVu Dual Lens",
+      "image": "/assets/img/products/DS-2SE2C400MWG-E_14.jpg",
+      "resolution": "4MP",
+      "highlights": [
+        "4MP 2K Dual-Channel Surveillance (Panoramic + PTZ)",
+        "24/7 ColorVu Fixed Lens for Total Area Awareness",
+        "High-Speed Pan/Tilt Lens for Close-Up Detail Capture",
+        "Active Strobe Light & Audio Alarm Deterrent",
+        "IP66 Outdoor Weatherproof Rating"
+      ],
+      "specs": {
+        "Camera Type": "4MP TandemVu Dual-Lens Network Camera",
+        "Resolution": "2560 × 1440 (4MP 2K) per channel",
+        "Panoramic Lens": "ColorVu 24/7 Color Fixed Lens",
+        "PTZ Lens": "Motorized Pan & Tilt Channel",
+        "Audio": "Built-in Two-Way Audio",
+        "Protection": "IP66 Weatherproof"
+      },
+      "description": "Dual-sensor 4MP 2K camera that never loses the big picture while capturing high-resolution details across commercial grounds and crossroads."
+    },
+    {
+      "id": "ds-2se3c204mwg-e-12",
+      "model": "DS-2SE3C204MWG-E/12",
+      "name": "Hikvision 2MP 4x Optical Zoom TandemVu PTZ Camera",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "ptz-cameras",
+      "subCategoryName": "PTZ & Smart Multi-Lens Cameras",
+      "badge": "2MP · 4x Optical Zoom",
+      "image": "/assets/img/products/DS-2SE3C204MWG-E_12.jpg",
+      "resolution": "2MP",
+      "highlights": [
+        "4x Motorized Optical Zoom PTZ Channel with Panoramic Overview",
+        "ColorVu Fixed Lens for 24/7 Full Color Situational Awareness",
+        "Smart Hybrid Light Night Vision up to 50m",
+        "AcuSense Intelligent Human & Vehicle Target Classification",
+        "IP66 Weatherproof Heavy-Duty Outdoor Rating"
+      ],
+      "specs": {
+        "Camera Type": "4x Optical Zoom TandemVu PTZ Camera",
+        "Optical Zoom": "4x Motorized Optical Zoom (2.8 to 12 mm)",
+        "Max Resolution": "1920 × 1080 (2MP)",
+        "Night Vision": "Up to 50m Dual Light",
+        "Audio": "Two-Way Audio Intercom",
+        "Protection": "IP66 Weatherproof"
+      },
+      "description": "Professional TandemVu PTZ camera featuring 4x motorized optical zoom for zooming in on license plates and faces without losing wide panoramic scene context."
+    },
+    {
+      "id": "ds-2se3c404mwg-e-14",
+      "model": "DS-2SE3C404MWG-E/14",
+      "name": "Hikvision 4MP 4x Optical Zoom TandemVu PTZ Camera",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "ptz-cameras",
+      "subCategoryName": "PTZ & Smart Multi-Lens Cameras",
+      "badge": "4MP 2K · 4x Optical Zoom",
+      "image": "/assets/img/products/DS-2SE3C404MWG-E_14.jpg",
+      "resolution": "4MP",
+      "highlights": [
+        "4MP 2K Resolution with 4x Motorized Optical Zoom",
+        "ColorVu Panoramic Overview + Motorized Optical Zoom PTZ",
+        "Smart Hybrid Light up to 50m Distance",
+        "Active Strobe Light & Siren Warning Deterrence",
+        "IP66 Rating for Industrial & Commercial Applications"
+      ],
+      "specs": {
+        "Camera Type": "4MP 4x Optical Zoom TandemVu PTZ",
+        "Optical Zoom": "4x Motorized Optical Zoom (2.8 to 12 mm)",
+        "Max Resolution": "2560 × 1440 (4MP 2K)",
+        "Illumination": "Up to 50m Dual Light Range",
+        "Audio": "Built-in Two-Way Talk",
+        "Protection": "IP66 Weatherproof"
+      },
+      "description": "Flagship 4MP TandemVu PTZ combining ColorVu panoramic coverage, 4x lossless optical zoom, strobe deterrence, and 50m dual illumination for premier security installations."
+    },
+    {
+      "id": "ds-7604ni-q1",
+      "model": "DS-7604NI-Q1",
+      "name": "Hikvision 4-Channel 1U 4K Network Video Recorder (NVR)",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "4-Channel · 4K NVR",
+      "image": "/assets/img/products/DS-7604NI-Q1.jpg",
+      "resolution": "N/A",
+      "channels": "4-Channel",
+      "highlights": [
+        "Up to 4-ch IP Camera Inputs",
+        "Up to 8MP 4K Ultra HD Video Decoding",
+        "4K HDMI & VGA Simultaneous Video Output",
+        "1 SATA Interface (Supports up to 8TB HDD)",
+        "H.265+ Compression for Optimized Hard Drive Retention"
+      ],
+      "specs": {
+        "Video Channels": "4 IP Camera Inputs",
+        "Decoding Capability": "1-ch @ 8 MP / 4-ch @ 1080p",
+        "Incoming Bandwidth": "40 Mbps",
+        "Hard Drive Capacity": "1 SATA interface, up to 8 TB capacity",
+        "Video Output": "1x HDMI (4K 3840×2160), 1x VGA",
+        "Network": "1x RJ-45 10/100 Mbps self-adaptive Ethernet"
+      },
+      "description": "Compact 4-channel 4K NVR ideal for residential homes, small retail shops, and small offices seeking high-definition recording and mobile remote viewing."
+    },
+    {
+      "id": "ds-7604nxi-k1",
+      "model": "DS-7604NXI-K1",
+      "name": "Hikvision 4-Channel 1U 4K AcuSense Network Video Recorder",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "4-Channel · AcuSense AI",
+      "image": "/assets/img/products/DS-7604NXI-K1.jpg",
+      "resolution": "N/A",
+      "channels": "4-Channel",
+      "highlights": [
+        "4-ch IP Camera Inputs with AcuSense AI Intelligence",
+        "Human & Vehicle Target Classification (Reduces False Alarms)",
+        "Face Picture Recognition & Search",
+        "Up to 12MP IP Camera Decoding Support",
+        "1 SATA HDD Slot (Supports up to 10TB)"
+      ],
+      "specs": {
+        "Video Channels": "4 IP Camera Inputs",
+        "AI Analytics": "1-ch Face Recognition or 4-ch Human/Vehicle Perimeter",
+        "Incoming Bandwidth": "40 Mbps",
+        "Storage": "1 SATA interface, up to 10 TB capacity",
+        "Output": "1x HDMI (4K), 1x VGA"
+      },
+      "description": "Smart 4-channel AcuSense AI NVR that filters out false alarms caused by animals, rain, or leaves and enables fast target search by person or vehicle."
+    },
+    {
+      "id": "ds-7604nxi-k1-vpro",
+      "model": "DS-7604NXI-K1_Vpro",
+      "name": "Hikvision 4-Channel 1U 4K AcuSense Pro Network Video Recorder",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "4-Channel · AcuSense Pro",
+      "image": "/assets/img/products/DS-7604NXI-K1_Vpro.jpg",
+      "resolution": "N/A",
+      "channels": "4-Channel",
+      "highlights": [
+        "4-ch AcuSense Pro Video Intelligence & Analytics",
+        "Up to 12MP High-Resolution Recording per Channel",
+        "4K HDMI Output for Ultra HD Multi-Screen Monitoring",
+        "1 SATA Interface up to 10TB HDD Storage",
+        "Enhanced Hardware Reliability for 24/7 Continuous Operation"
+      ],
+      "specs": {
+        "Video Channels": "4 IP Camera Inputs",
+        "Smart Features": "AcuSense Pro Perimeter Protection & Target Search",
+        "Bandwidth": "40 Mbps Incoming",
+        "Storage": "1 SATA port up to 10 TB",
+        "Video Output": "4K HDMI & VGA"
+      },
+      "description": "Enhanced 4-channel AcuSense Pro NVR designed for mission-critical small business and luxury home surveillance systems."
+    },
+    {
+      "id": "ds-7608ni-q1",
+      "model": "DS-7608NI-Q1",
+      "name": "Hikvision 8-Channel 1U 4K Network Video Recorder",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "8-Channel · 4K NVR",
+      "image": "/assets/img/products/DS-7608NI-Q1.jpg",
+      "resolution": "N/A",
+      "channels": "8-Channel",
+      "highlights": [
+        "Up to 8-ch IP Camera Inputs",
+        "Supports up to 8MP 4K Video Recording",
+        "4K HDMI Output (3840 × 2160)",
+        "1 SATA HDD Interface (up to 8TB)",
+        "H.265+ Video Compression"
+      ],
+      "specs": {
+        "Channels": "8 IP Camera Channels",
+        "Bandwidth": "80 Mbps Incoming",
+        "Storage": "1 SATA HDD up to 8 TB",
+        "Output": "4K HDMI & VGA"
+      },
+      "description": "Reliable 8-channel 4K NVR offering seamless camera recording, multi-split live display, and Hik-Connect mobile remote viewing."
+    },
+    {
+      "id": "ds-7608ni-q2",
+      "model": "DS-7608NI-Q2",
+      "name": "Hikvision 8-Channel 2-HDD 4K Network Video Recorder",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "8-Channel · 2 SATA HDDs",
+      "image": "/assets/img/products/DS-7608NI-Q2.jpg",
+      "resolution": "N/A",
+      "channels": "8-Channel",
+      "highlights": [
+        "8-ch IP Camera Inputs",
+        "Dual SATA Interfaces (Supports up to 2x 8TB = 16TB Storage)",
+        "Extended Video Retention Duration for Business Compliance",
+        "4K HDMI & 1080p VGA Outputs",
+        "80 Mbps Incoming Bandwidth"
+      ],
+      "specs": {
+        "Channels": "8 IP Channels",
+        "Storage": "2 SATA interfaces (up to 16 TB total)",
+        "Bandwidth": "80 Mbps",
+        "Output": "4K HDMI & VGA"
+      },
+      "description": "Dual-hard-drive 8-channel NVR providing double the storage capacity for businesses that require 30 to 60+ days of video retention."
+    },
+    {
+      "id": "ds-7608nxi-k1",
+      "model": "DS-7608NXI-K1",
+      "name": "Hikvision 8-Channel 1U 4K AcuSense Network Video Recorder",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "8-Channel · AcuSense AI",
+      "image": "/assets/img/products/DS-7608NXI-K1.jpg",
+      "resolution": "N/A",
+      "channels": "8-Channel",
+      "highlights": [
+        "8-ch IP Camera Inputs with AcuSense AI Intelligence",
+        "Human & Vehicle Motion Classification",
+        "Face Picture Detection & Intelligent Search",
+        "Up to 12MP Camera Support & 4K Output",
+        "1 SATA Interface up to 10TB"
+      ],
+      "specs": {
+        "Channels": "8 IP Inputs",
+        "AI Capability": "AcuSense Human/Vehicle Analytics & Face Recognition",
+        "Storage": "1 SATA up to 10 TB",
+        "Bandwidth": "80 Mbps Incoming"
+      },
+      "description": "Smart 8-channel AcuSense AI NVR providing deep-learning target classification and instant alarm filtering for commercial properties and residences."
+    },
+    {
+      "id": "ds-7608nxi-k1-vpro",
+      "model": "DS-7608NXI-K1_Vpro",
+      "name": "Hikvision 8-Channel 1U 4K AcuSense Pro NVR",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "8-Channel · AcuSense Pro",
+      "image": "/assets/img/products/DS-7608NXI-K1_Vpro.jpg",
+      "resolution": "N/A",
+      "channels": "8-Channel",
+      "highlights": [
+        "8-ch AcuSense Pro AI Intelligence",
+        "High Bandwidth Decoding for Ultra HD Multi-Stream Monitoring",
+        "Face Capture & Perimeter Analytics",
+        "1 SATA HDD Interface up to 10TB",
+        "4K HDMI Output"
+      ],
+      "specs": {
+        "Channels": "8 IP Channels",
+        "Analytics": "AcuSense Pro Deep Learning Engine",
+        "Storage": "1 SATA interface up to 10 TB"
+      },
+      "description": "High-performance 8-channel AcuSense Pro NVR engineered for demanding commercial surveillance and intelligent threat detection."
+    },
+    {
+      "id": "ds-7608nxi-k2",
+      "model": "DS-7608NXI-K2",
+      "name": "Hikvision 8-Channel 2-HDD 4K AcuSense NVR",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "8-Channel · 2 SATA & AI",
+      "image": "/assets/img/products/DS-7608NXI-K2.jpg",
+      "resolution": "N/A",
+      "channels": "8-Channel",
+      "highlights": [
+        "8-ch IP Camera Inputs with AcuSense AI Detection",
+        "Dual SATA Interfaces (Supports up to 2x 10TB = 20TB Total Storage)",
+        "Intelligent Human & Vehicle Target Recognition",
+        "4K HDMI Output & 80 Mbps Incoming Bandwidth",
+        "H.265+ Compression Technology"
+      ],
+      "specs": {
+        "Channels": "8 IP Inputs",
+        "Storage": "2 SATA interfaces (up to 20 TB total)",
+        "AI Features": "Human/Vehicle Perimeter & Face Search",
+        "Bandwidth": "80 Mbps Incoming"
+      },
+      "description": "Dual-drive 8-channel AcuSense NVR combining deep-learning video analytics with 20TB storage capacity for extended video retention."
+    },
+    {
+      "id": "ds-7608nxi-k2-8p",
+      "model": "DS-7608NXI-K2_8P",
+      "name": "Hikvision 8-Channel 4K AcuSense NVR with 8 Built-in PoE Ports",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "8-Channel · 8 PoE Ports",
+      "image": "/assets/img/products/DS-7608NXI-K2_8P.jpg",
+      "resolution": "N/A",
+      "channels": "8-Channel",
+      "highlights": [
+        "8 Built-in Power-over-Ethernet (PoE) Ports (Plug & Play)",
+        "Dual SATA Interfaces (up to 20TB Total HDD Storage)",
+        "AcuSense AI Human and Vehicle False-Alarm Filtering",
+        "Single Cable Powers & Connects Each IP Camera",
+        "4K HDMI Output & 80 Mbps Bandwidth"
+      ],
+      "specs": {
+        "Channels": "8 IP Inputs with 8 PoE Interfaces",
+        "PoE Budget": "Max 80 W",
+        "Storage": "2 SATA interfaces (up to 20 TB)",
+        "AI Analytics": "AcuSense Perimeter & Face Recognition"
+      },
+      "description": "All-in-one 8-channel AcuSense NVR with 8 built-in PoE ports, allowing direct plug-and-play connection of cameras without needing a separate PoE switch."
+    },
+    {
+      "id": "ds-7608nxi-k2-vpro",
+      "model": "DS-7608NXI-K2_Vpro",
+      "name": "Hikvision 8-Channel 2-HDD 4K AcuSense Pro NVR",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "8-Channel · AcuSense Pro 2-HDD",
+      "image": "/assets/img/products/DS-7608NXI-K2_Vpro.jpg",
+      "resolution": "N/A",
+      "channels": "8-Channel",
+      "highlights": [
+        "8-ch AcuSense Pro Deep-Learning Engine",
+        "Dual SATA Ports (up to 20TB Storage)",
+        "Enhanced Video Analytics for Complex Environments",
+        "4K HDMI Ultra HD Output",
+        "Robust 24/7 Commercial Grade Performance"
+      ],
+      "specs": {
+        "Channels": "8 IP Channels",
+        "Storage": "2 SATA interfaces up to 20 TB",
+        "Analytics": "AcuSense Pro Engine"
+      },
+      "description": "Commercial-grade 8-channel 2-HDD AcuSense Pro NVR built for retail chains, financial institutions, and corporate facilities."
+    },
+    {
+      "id": "ds-7608nxi-i2-vpro",
+      "model": "DS-7608NXI-I2_VPro",
+      "name": "Hikvision 8-Channel High-Throughput AcuSense Pro NVR",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "8-Channel · High Throughput I-Series",
+      "image": "/assets/img/products/DS-7608NXI-I2_VPro.jpg",
+      "resolution": "N/A",
+      "channels": "8-Channel",
+      "highlights": [
+        "High-Bandwidth I-Series Hardware Architecture",
+        "8-ch Ultra HD Camera Decoding up to 12MP/32MP",
+        "2 SATA Interfaces (up to 20TB Total Storage)",
+        "Dual Gigabit Network Interfaces for Redundancy",
+        "AcuSense Pro Advanced DeepinMind AI Engine"
+      ],
+      "specs": {
+        "Channels": "8 IP Inputs",
+        "Throughput": "80 Mbps Incoming / 256 Mbps Outgoing",
+        "Storage": "2 SATA interfaces",
+        "Network": "2x Gigabit RJ-45 Ethernet ports"
+      },
+      "description": "Enterprise-grade 8-channel I-Series NVR delivering high decoding throughput and dual gigabit network interfaces for high-demand installations."
+    },
+    {
+      "id": "ds-7608nxi-i2-8p-vpro",
+      "model": "DS-7608NXI-I2_8P_VPro",
+      "name": "Hikvision 8-Channel High-Throughput AcuSense Pro NVR with 8 PoE",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "8-Channel · 8 PoE & I-Series Pro",
+      "image": "/assets/img/products/DS-7608NXI-I2_8P_VPro.jpg",
+      "resolution": "N/A",
+      "channels": "8-Channel",
+      "highlights": [
+        "8 Built-in High-Power PoE Ports (Plug & Play)",
+        "I-Series Enterprise Hardware with AcuSense Pro AI",
+        "Dual SATA Ports (up to 20TB HDD Storage)",
+        "Supports Cameras up to 12MP Resolution",
+        "4K HDMI Output & Ultra-High Decoding Power"
+      ],
+      "specs": {
+        "Channels": "8 IP Channels with 8 PoE Interfaces",
+        "PoE Budget": "120 W",
+        "Storage": "2 SATA ports",
+        "Output": "4K HDMI & VGA"
+      },
+      "description": "Top-of-the-line 8-channel PoE NVR combining enterprise I-Series processing power, built-in PoE convenience, and AcuSense Pro deep learning."
+    },
+    {
+      "id": "ds-7616ni-q1",
+      "model": "DS-7616NI-Q1",
+      "name": "Hikvision 16-Channel 1U 4K Network Video Recorder",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "16-Channel · 4K NVR",
+      "image": "/assets/img/products/DS-7616NI-Q1.jpg",
+      "resolution": "N/A",
+      "channels": "16-Channel",
+      "highlights": [
+        "Up to 16-ch IP Camera Inputs",
+        "160 Mbps Incoming Bandwidth",
+        "4K HDMI Output (3840 × 2160)",
+        "1 SATA HDD Interface (up to 8TB)",
+        "H.265+ Compression Technology"
+      ],
+      "specs": {
+        "Channels": "16 IP Inputs",
+        "Bandwidth": "160 Mbps Incoming",
+        "Storage": "1 SATA HDD up to 8 TB",
+        "Output": "4K HDMI & VGA"
+      },
+      "description": "Cost-effective 16-channel 4K NVR for medium-sized installations, schools, hotels, and offices requiring high camera density."
+    },
+    {
+      "id": "ds-7616ni-q2",
+      "model": "DS-7616NI-Q2",
+      "name": "Hikvision 16-Channel 2-HDD 4K Network Video Recorder",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "16-Channel · 2 SATA HDDs",
+      "image": "/assets/img/products/DS-7616NI-Q2.jpg",
+      "resolution": "N/A",
+      "channels": "16-Channel",
+      "highlights": [
+        "16-ch IP Camera Inputs",
+        "Dual SATA Interfaces (Supports up to 16TB Total Storage)",
+        "160 Mbps High Incoming Bandwidth",
+        "4K HDMI & VGA Video Outputs",
+        "H.265+ Video Compression"
+      ],
+      "specs": {
+        "Channels": "16 IP Channels",
+        "Storage": "2 SATA interfaces (up to 16 TB total)",
+        "Bandwidth": "160 Mbps Incoming",
+        "Output": "4K HDMI & VGA"
+      },
+      "description": "Dual-drive 16-channel NVR providing double storage capacity for 16-camera surveillance setups in factories, supermarkets, and commercial buildings."
+    },
+    {
+      "id": "ds-7616nxi-k1",
+      "model": "DS-7616NXI-K1",
+      "name": "Hikvision 16-Channel 1U 4K AcuSense NVR",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "16-Channel · AcuSense AI",
+      "image": "/assets/img/products/DS-7616NXI-K1.jpg",
+      "resolution": "N/A",
+      "channels": "16-Channel",
+      "highlights": [
+        "16-ch IP Camera Inputs with AcuSense AI Intelligence",
+        "Human & Vehicle False Alarm Filtering",
+        "Face Capture & Target Search",
+        "160 Mbps Incoming Bandwidth",
+        "1 SATA Interface up to 10TB"
+      ],
+      "specs": {
+        "Channels": "16 IP Inputs",
+        "AI Features": "AcuSense Human/Vehicle Classification & Face Recognition",
+        "Storage": "1 SATA interface up to 10 TB",
+        "Bandwidth": "160 Mbps"
+      },
+      "description": "Intelligent 16-channel AcuSense NVR with deep learning analytics for fast incident investigation across commercial facilities."
+    },
+    {
+      "id": "ds-7616nxi-k1-vpro",
+      "model": "DS-7616NXI-K1_Vpro",
+      "name": "Hikvision 16-Channel 1U 4K AcuSense Pro NVR",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "16-Channel · AcuSense Pro",
+      "image": "/assets/img/products/DS-7616NXI-K1_Vpro.jpg",
+      "resolution": "N/A",
+      "channels": "16-Channel",
+      "highlights": [
+        "16-ch AcuSense Pro Deep-Learning Architecture",
+        "Up to 12MP Camera Support on All Channels",
+        "4K HDMI Output for Multi-Monitor Security Control Rooms",
+        "1 SATA HDD Slot up to 10TB",
+        "160 Mbps High-Speed Recording"
+      ],
+      "specs": {
+        "Channels": "16 IP Inputs",
+        "Analytics": "AcuSense Pro Engine",
+        "Storage": "1 SATA port"
+      },
+      "description": "AcuSense Pro 16-channel NVR offering high computing power and precision perimeter alarm filtering for commercial environments."
+    },
+    {
+      "id": "ds-7616nxi-k2-vpro",
+      "model": "DS-7616NXI-K2_Vpro",
+      "name": "Hikvision 16-Channel 2-HDD 4K AcuSense Pro NVR",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "16-Channel · 2 SATA AcuSense Pro",
+      "image": "/assets/img/products/DS-7616NXI-K2_Vpro.jpg",
+      "resolution": "N/A",
+      "channels": "16-Channel",
+      "highlights": [
+        "16-ch AcuSense Pro AI Intelligence",
+        "Dual SATA Interfaces (Supports up to 20TB Total Storage)",
+        "160 Mbps Incoming Bandwidth",
+        "Intelligent Perimeter Defense & Face Search",
+        "4K HDMI Ultra HD Output"
+      ],
+      "specs": {
+        "Channels": "16 IP Channels",
+        "Storage": "2 SATA interfaces (up to 20 TB total)",
+        "AI Engine": "AcuSense Pro Intelligence"
+      },
+      "description": "Dual-drive 16-channel AcuSense Pro NVR offering generous storage headroom and advanced AI video analytics for business complexes."
+    },
+    {
+      "id": "ds-7616nxi-k2-16p",
+      "model": "DS-7616NXI-K2_16P",
+      "name": "Hikvision 16-Channel 4K AcuSense NVR with 16 Built-in PoE Ports",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "16-Channel · 16 PoE Ports",
+      "image": "/assets/img/products/DS-7616NXI-K2_16P.jpg",
+      "resolution": "N/A",
+      "channels": "16-Channel",
+      "highlights": [
+        "16 Built-in Plug & Play PoE Ports (Powers 16 Cameras Directly)",
+        "Dual SATA Ports (Supports up to 20TB Total Storage)",
+        "AcuSense AI Human and Vehicle Classification",
+        "Simplifies Installation by Eliminating External PoE Switches",
+        "4K HDMI Video Output"
+      ],
+      "specs": {
+        "Channels": "16 IP Inputs with 16 PoE Interfaces",
+        "PoE Budget": "Max 200 W",
+        "Storage": "2 SATA interfaces (up to 20 TB)",
+        "AI Analytics": "AcuSense Deep Learning"
+      },
+      "description": "Comprehensive 16-channel PoE NVR with 16 on-board PoE ports, dual SATA storage, and AcuSense AI for rapid, clean commercial deployment."
+    },
+    {
+      "id": "ds-7616nxi-i2-vpro",
+      "model": "DS-7616NXI-I2_VPro",
+      "name": "Hikvision 16-Channel Enterprise AcuSense Pro NVR",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "16-Channel · I-Series Pro",
+      "image": "/assets/img/products/DS-7616NXI-I2_VPro.jpg",
+      "resolution": "N/A",
+      "channels": "16-Channel",
+      "highlights": [
+        "I-Series Enterprise Architecture with 160 Mbps Incoming Bandwidth",
+        "Dual Gigabit LAN Interfaces for Network Load Balancing",
+        "2 SATA Ports (up to 20TB Storage)",
+        "AcuSense Pro Deep Learning Video Engine",
+        "Support for Cameras up to 12MP/32MP"
+      ],
+      "specs": {
+        "Channels": "16 IP Channels",
+        "Bandwidth": "160 Mbps In / 256 Mbps Out",
+        "Storage": "2 SATA ports",
+        "Network": "2x Gigabit Ethernet"
+      },
+      "description": "Enterprise 16-channel I-Series NVR engineered for heavy data loads, multiple remote viewers, and critical infrastructure surveillance."
+    },
+    {
+      "id": "ds-7716nxi-k4-vpro",
+      "model": "DS-7716NXI-K4_Vpro",
+      "name": "Hikvision 16-Channel 4-HDD 1.5U AcuSense Pro NVR",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "16-Channel · 4 SATA (40TB)",
+      "image": "/assets/img/products/DS-7716NXI-K4_Vpro.jpg",
+      "resolution": "N/A",
+      "channels": "16-Channel",
+      "highlights": [
+        "4 SATA Hard Drive Bays (Supports up to 40TB Total Storage)",
+        "16-ch AcuSense Pro Deep-Learning Video Intelligence",
+        "160 Mbps High Throughput Processing",
+        "Rack-Mountable 1.5U Chassis with Redundant Cooling",
+        "Dual Independent 4K HDMI & VGA Video Outputs"
+      ],
+      "specs": {
+        "Channels": "16 IP Inputs",
+        "Storage": "4 SATA interfaces (up to 40 TB total capacity)",
+        "Chassis": "1.5U 19-inch Rack Mountable",
+        "Output": "2x HDMI (up to 4K), 1x VGA"
+      },
+      "description": "High-capacity 4-bay 16-channel NVR providing up to 40TB storage capacity for institutions requiring long-term video retention and AcuSense Pro AI."
+    },
+    {
+      "id": "ds-7716nxi-i4-vpro",
+      "model": "DS-7716NXI-I4_VPro",
+      "name": "Hikvision 16-Channel Ultra-Enterprise 4-HDD AcuSense Pro NVR",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "16-Channel · I-Series 4 SATA",
+      "image": "/assets/img/products/DS-7716NXI-I4_VPro.jpg",
+      "resolution": "N/A",
+      "channels": "16-Channel",
+      "highlights": [
+        "Ultra-Enterprise I-Series 4-HDD Architecture (up to 40TB)",
+        "Dual Gigabit LAN Interfaces with Fault-Tolerance",
+        "AcuSense Pro DeepinMind AI Engine for Advanced Facial & Vehicle Analytics",
+        "Supports RAID 0, 1, 5, 6, 10 for Maximum Data Protection",
+        "2x 4K HDMI Independent Video Outputs"
+      ],
+      "specs": {
+        "Channels": "16 IP Channels",
+        "Storage": "4 SATA interfaces + eSATA (RAID support)",
+        "Bandwidth": "256 Mbps In / 256 Mbps Out",
+        "Chassis": "1.5U 19-inch Rack Mountable"
+      },
+      "description": "Ultra-enterprise 16-channel I-Series NVR with hardware RAID data protection and deep-learning AI for hotels, hospitals, and corporate headquarters."
+    },
+    {
+      "id": "ds-7632nxi-k2",
+      "model": "DS-7632NXI-K2",
+      "name": "Hikvision 32-Channel 2-HDD 4K AcuSense NVR",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "32-Channel · AcuSense AI",
+      "image": "/assets/img/products/DS-7632NXI-K2.jpg",
+      "resolution": "N/A",
+      "channels": "32-Channel",
+      "highlights": [
+        "Up to 32-ch IP Camera Inputs",
+        "Dual SATA Interfaces (Supports up to 20TB Total Storage)",
+        "256 Mbps High Incoming Bandwidth",
+        "AcuSense AI Human and Vehicle Alarm Filtering",
+        "4K HDMI Output"
+      ],
+      "specs": {
+        "Channels": "32 IP Inputs",
+        "Bandwidth": "256 Mbps Incoming",
+        "Storage": "2 SATA interfaces up to 20 TB",
+        "AI Features": "AcuSense Human/Vehicle Classification"
+      },
+      "description": "High-density 32-channel AcuSense AI NVR capable of managing 32 network cameras across sprawling properties, shopping malls, and warehouses."
+    },
+    {
+      "id": "ds-7632nxi-k2-vpro",
+      "model": "DS-7632NXI-K2_Vpro",
+      "name": "Hikvision 32-Channel 2-HDD 4K AcuSense Pro NVR",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "32-Channel · AcuSense Pro",
+      "image": "/assets/img/products/DS-7632NXI-K2_Vpro.jpg",
+      "resolution": "N/A",
+      "channels": "32-Channel",
+      "highlights": [
+        "32-ch AcuSense Pro Deep Learning Video Engine",
+        "256 Mbps Incoming Bandwidth for High-Resolution Feeds",
+        "Dual SATA Storage Bays (up to 20TB)",
+        "Face Capture & Perimeter Analytics on Multiple Channels",
+        "4K HDMI Output"
+      ],
+      "specs": {
+        "Channels": "32 IP Channels",
+        "Bandwidth": "256 Mbps",
+        "Storage": "2 SATA interfaces",
+        "AI Engine": "AcuSense Pro Engine"
+      },
+      "description": "Advanced 32-channel AcuSense Pro NVR with heavy-duty processing throughput for high-density surveillance operations."
+    },
+    {
+      "id": "ds-7732nxi-k4",
+      "model": "DS-7732NXI-K4",
+      "name": "Hikvision 32-Channel 4-HDD 1.5U 4K AcuSense NVR",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "32-Channel · 4 SATA (40TB)",
+      "image": "/assets/img/products/DS-7732NXI-K4.jpg",
+      "resolution": "N/A",
+      "channels": "32-Channel",
+      "highlights": [
+        "32-ch IP Camera Inputs",
+        "4 SATA Hard Drive Interfaces (Supports up to 40TB Total Capacity)",
+        "256 Mbps High Incoming Bandwidth",
+        "AcuSense Intelligent Target Search & Perimeter Protection",
+        "1.5U 19-inch Rack-Mountable Metal Chassis"
+      ],
+      "specs": {
+        "Channels": "32 IP Inputs",
+        "Storage": "4 SATA interfaces (up to 40 TB total)",
+        "Bandwidth": "256 Mbps",
+        "Chassis": "1.5U Rack Mountable",
+        "Output": "2x HDMI (up to 4K), 1x VGA"
+      },
+      "description": "High-capacity 32-channel 4-bay NVR offering massive 40TB storage space and deep-learning AI for factories, university campuses, and estate security."
+    },
+    {
+      "id": "ds-7732nxi-k4-vpro",
+      "model": "DS-7732NXI-K4_Vpro",
+      "name": "Hikvision 32-Channel 4-HDD AcuSense Pro Enterprise NVR",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "32-Channel · AcuSense Pro 4-HDD",
+      "image": "/assets/img/products/DS-7732NXI-K4_Vpro.jpg",
+      "resolution": "N/A",
+      "channels": "32-Channel",
+      "highlights": [
+        "32-ch AcuSense Pro Advanced Intelligence Engine",
+        "4 SATA Hard Drive Bays (up to 40TB Storage)",
+        "Dual Independent 4K HDMI Outputs for Multi-Wall Control Centers",
+        "High Bandwidth Throughput & Redundant Networking",
+        "1.5U Rack-Mount Form Factor"
+      ],
+      "specs": {
+        "Channels": "32 IP Channels",
+        "Storage": "4 SATA interfaces (up to 40 TB total)",
+        "AI Engine": "AcuSense Pro Deep Learning"
+      },
+      "description": "Enterprise 32-channel 4-HDD AcuSense Pro NVR engineered for 24/7 mission-critical operations and long retention cycles."
+    },
+    {
+      "id": "ds-7732nxi-i4-vpro",
+      "model": "DS-7732NXI-I4_VPro",
+      "name": "Hikvision 32-Channel Ultra-Enterprise 4-HDD AcuSense Pro NVR",
+      "brand": "Hikvision",
+      "category": "cctv",
+      "categoryName": "CCTV & Surveillance",
+      "subCategory": "nvr-recorders",
+      "subCategoryName": "NVR Video Recorders",
+      "badge": "32-Channel · I-Series Ultra Pro",
+      "image": "/assets/img/products/DS-7732NXI-I4_VPro.jpg",
+      "resolution": "N/A",
+      "channels": "32-Channel",
+      "highlights": [
+        "Top-of-the-Line 32-ch I-Series Enterprise Hardware Architecture",
+        "Supports RAID 0, 1, 5, 6, 10 Across 4 SATA Drives (up to 40TB)",
+        "320 Mbps Massive Decoding & Transmission Throughput",
+        "DeepinMind AI Engine for High-Speed Face, Vehicle & Perimeter Analytics",
+        "Dual Redundant Gigabit Network Cards & Dual 4K HDMI Outputs"
+      ],
+      "specs": {
+        "Channels": "32 IP Channels",
+        "Throughput": "320 Mbps In / 256 Mbps Out",
+        "Storage": "4 SATA interfaces + eSATA (RAID 0,1,5,6,10)",
+        "Chassis": "1.5U 19-inch Rackmount",
+        "Network": "2x Gigabit RJ-45"
+      },
+      "description": "Flagship ultra-enterprise 32-channel I-Series NVR featuring hardware RAID data redundancy, dual gigabit interfaces, and DeepinMind AI for maximum security assurance."
+    }
+  ]
+}

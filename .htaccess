@@ -12,6 +12,9 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
+# Redirect /products to /shop
+RewriteRule ^products/?$ /shop/ [R=301,L]
+
 # Redirect www to apex. Enable only after both hostnames resolve.
 RewriteCond %{HTTP_HOST} ^www\.amtsolutions\.lk$ [NC]
 RewriteRule ^ https://amtsolutions.lk%{REQUEST_URI} [R=301,L]
