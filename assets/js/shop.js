@@ -168,8 +168,9 @@
         <article class="shop-card" data-product-id="${p.id}" id="product-${p.id}">
           <div class="shop-card-media" onclick="window.shopApp.openProductModal('${p.id}')">
             <span class="shop-badge">${escapeHtml(p.badge || p.subCategoryName)}</span>
-            <img src="${p.image}" alt="${escapeHtml(p.brand)} ${escapeHtml(p.model)} — ${escapeHtml(p.name)}" 
-                 class="shop-card-img" width="400" height="400" loading="lazy" decoding="async">
+            <img src="${p.image}" alt="${escapeHtml(p.brand)} ${escapeHtml(p.model)} ${escapeHtml(p.badge || 'Product')}" 
+                 class="shop-card-img" width="400" height="400" loading="lazy" decoding="async" 
+                 onerror="this.onerror=null;this.src='/assets/img/products/product-placeholder.jpg';">
             <span class="shop-card-view-btn">View Specifications</span>
           </div>
           <div class="shop-card-body">
@@ -180,6 +181,11 @@
             <ul class="shop-card-highlights">
               ${highlightsList}
             </ul>
+
+            <div class="shop-card-pricing" style="margin-bottom: 1rem;">
+              <strong>${p.price ? 'LKR ' + escapeHtml(p.price) : 'Contact for Price'}</strong>
+              <span class="shop-stock-status" style="margin-left: 10px; font-size: 0.8em; color: ${p.stock ? 'var(--green)' : 'var(--muted)'};">${escapeHtml(p.stock || 'Check Availability')}</span>
+            </div>
 
             <div class="shop-card-actions">
               <a href="${whatsappUrl}" target="_blank" rel="noopener noreferrer" class="button button-small shop-btn-whatsapp" aria-label="Enquire via WhatsApp about ${escapeHtml(p.model)}">
@@ -241,7 +247,8 @@
     elements.modalBody.innerHTML = `
       <div class="modal-product-layout">
         <div class="modal-product-media">
-          <img src="${product.image}" alt="${escapeHtml(product.brand)} ${escapeHtml(product.model)} — ${escapeHtml(product.name)}" class="modal-product-img">
+          <img src="${product.image}" alt="${escapeHtml(product.brand)} ${escapeHtml(product.model)} ${escapeHtml(product.badge || 'Product')}" 
+               class="modal-product-img" onerror="this.onerror=null;this.src='/assets/img/products/product-placeholder.jpg';">
           <div class="modal-product-badge">${escapeHtml(product.badge || product.subCategoryName)}</div>
           <div class="modal-brand-tag">${escapeHtml(product.brand)} Official Security Technology</div>
         </div>
@@ -249,6 +256,11 @@
           <span class="modal-category">${escapeHtml(product.categoryName)} · ${escapeHtml(product.subCategoryName)}</span>
           <h2 class="modal-title">${escapeHtml(product.model)}</h2>
           <p class="modal-subtitle">${escapeHtml(product.name)}</p>
+          
+          <div class="modal-pricing" style="margin-top: 1rem; margin-bottom: 1rem;">
+            <span style="font-size: 1.5rem; font-weight: 800;">${product.price ? 'LKR ' + escapeHtml(product.price) : 'Contact for Price'}</span>
+            <span style="margin-left: 1rem; color: ${product.stock ? 'var(--green)' : 'var(--muted)'};">${escapeHtml(product.stock || 'Check Availability')}</span>
+          </div>
           
           <div class="modal-description">
             <p>${escapeHtml(product.description)}</p>

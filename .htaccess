@@ -1,16 +1,24 @@
 # AMT Solutions — Apache / AeonFree configuration
 
-Options -Indexes
-DirectoryIndex index.html
-
+# 1. CUSTOM ERROR PAGES
+# Redirects 404 errors to a file named 404.html in your htdocs root
 ErrorDocument 404 /404.html
 
-<IfModule mod_rewrite.c>
-RewriteEngine On
+# 3. DISABLE DIRECTORY BROWSING
+# Prevents visitors from seeing your file list if an index.html is missing
+Options -Indexes
 
-# Force HTTPS
+# 4. DEFAULT INDEX FILE PRIORITY
+# Sets which file loads first when someone visits your domain
+DirectoryIndex index.php index.html index.htm
+
+<IfModule mod_rewrite.c>
+# 2. FORCE HTTPS (SSL)
+# Automatically upgrades traffic from http to https
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteCond %{HTTPS} off
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Redirect /products to /shop
 RewriteRule ^products/?$ /shop/ [R=301,L]

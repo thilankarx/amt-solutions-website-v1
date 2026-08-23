@@ -45,16 +45,44 @@
       "description": "Point of sale terminals, barcode scanners, thermal receipt printers, and cash management hardware.",
       "subCategories": [
         {
+          "id": "all-pos",
+          "name": "All POS & Retail"
+        },
+        {
+          "id": "handheld-barcode-scanners",
+          "name": "Handheld Scanners"
+        },
+        {
+          "id": "wireless-barcode-scanners",
+          "name": "Wireless Scanners"
+        },
+        {
+          "id": "desktop-barcode-scanners",
+          "name": "Desktop Scanners"
+        },
+        {
+          "id": "scanner-stands",
+          "name": "Scanner Stands"
+        },
+        {
+          "id": "barcode-label-printers",
+          "name": "Barcode & Label Printers"
+        },
+        {
+          "id": "receipt-bill-printers",
+          "name": "Receipt / Bill Printers"
+        },
+        {
+          "id": "mobile-printers",
+          "name": "Mobile Printers"
+        },
+        {
           "id": "pos-terminals",
           "name": "POS Terminals"
         },
         {
-          "id": "barcode-scanners",
-          "name": "Barcode Scanners"
-        },
-        {
-          "id": "receipt-printers",
-          "name": "Receipt Printers"
+          "id": "customer-displays",
+          "name": "Customer Displays"
         },
         {
           "id": "cash-drawers",
@@ -1678,6 +1706,826 @@
         "Network": "2x Gigabit RJ-45"
       },
       "description": "Flagship ultra-enterprise 32-channel I-Series NVR featuring hardware RAID data redundancy, dual gigabit interfaces, and DeepinMind AI for maximum security assurance."
+    },
+    {
+      "id": "henex-h1200",
+      "model": "H1200",
+      "brand": "HENEX",
+      "name": "HENEX H1200 1D/2D/QR Handheld Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanners",
+      "subCategory": "handheld-barcode-scanners",
+      "subCategoryName": "Handheld Barcode Scanners",
+      "badge": "Wired handheld scanner",
+      "description": "Plug and play; dustproof protection; scan rate 30 fps/s; reads all main 1D/2D/QR codes; used in Alipay and WeChat Pay; USB/RS-232/USB-VCOM.",
+      "highlights": [
+        "1D/2D/QR",
+        "1D/2D",
+        "USB",
+        "RS-232",
+        "USB-VCOM"
+      ],
+      "specs": {
+        "Technology": "Wired handheld scanner",
+        "Details": "Plug and play; dustproof protection; scan rate 30 fps/s; reads all main 1D/2D/QR codes; used in Alipay and WeChat Pay; USB/RS-232/USB-VCOM."
+      },
+      "stock": "",
+      "price": "",
+      "seoTitle": "HENEX H1200 | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/henex-h1200.webp"
+    },
+    {
+      "id": "henex-h3308",
+      "model": "H3308",
+      "brand": "HENEX",
+      "name": "HENEX H3308 1D/2D Handheld Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanners",
+      "subCategory": "handheld-barcode-scanners",
+      "subCategoryName": "Handheld Barcode Scanners",
+      "badge": "Wired handheld scanner",
+      "description": "Reads 1D/2D codes from screen and paper including EAN-13, UPC, Code128/93, QR, PDF417, Data Matrix and OCR codes; supports Alipay/WeChat Pay, multilingual setting, data upload and memory; plug and play; USB/RS-232/USB...",
+      "highlights": [
+        "1D/2D",
+        "USB",
+        "RS-232",
+        "USB-VCOM"
+      ],
+      "specs": {
+        "Technology": "Wired handheld scanner",
+        "Details": "Reads 1D/2D codes from screen and paper including EAN-13, UPC, Code128/93, QR, PDF417, Data Matrix and OCR codes; supports Alipay/WeChat Pay, multilingual setting, data upload and memory; plug and play; USB/RS-232/USB-VCOM."
+      },
+      "stock": "",
+      "price": "",
+      "seoTitle": "HENEX H3308 | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/henex-h3308.webp"
+    },
+    {
+      "id": "henex-stand",
+      "model": "STAND",
+      "brand": "HENEX",
+      "name": "HENEX Stand for H3308 Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanner Accessories",
+      "subCategory": "scanner-stands",
+      "subCategoryName": "Scanner Stands",
+      "badge": "Barcode scanner stand",
+      "description": "Stand for H3308.",
+      "highlights": [],
+      "specs": {
+        "Technology": "Barcode scanner stand",
+        "Details": "Stand for H3308."
+      },
+      "stock": "",
+      "price": "",
+      "seoTitle": "HENEX Stand for H3308 Barcode Scanner | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/henex-stand.webp"
+    },
+    {
+      "id": "henex-hc-666",
+      "model": "HC-666",
+      "brand": "HENEX",
+      "name": "HENEX HC-666 1D/2D/QR Desktop Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanners",
+      "subCategory": "desktop-barcode-scanners",
+      "subCategoryName": "Desktop Barcode Scanners",
+      "badge": "Desktop / presentation scanner",
+      "description": "Plug and play; penguin design; image 640×480 pixels; scan rate 30 fps/s; reads all main 1D/2D/QR; minimum resolution 5 mil; USB/RS-232/USB-VCOM.",
+      "highlights": [
+        "1D/2D/QR",
+        "1D/2D",
+        "USB",
+        "RS-232",
+        "USB-VCOM"
+      ],
+      "specs": {
+        "Technology": "Desktop / presentation scanner",
+        "Details": "Plug and play; penguin design; image 640×480 pixels; scan rate 30 fps/s; reads all main 1D/2D/QR; minimum resolution 5 mil; USB/RS-232/USB-VCOM."
+      },
+      "stock": "",
+      "price": "",
+      "seoTitle": "HENEX HC-666 | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/henex-hc-666.webp"
+    },
+    {
+      "id": "henex-h2200",
+      "model": "H2200",
+      "brand": "HENEX",
+      "name": "HENEX H2200 1D/2D/QR Desktop Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanners",
+      "subCategory": "desktop-barcode-scanners",
+      "subCategoryName": "Desktop Barcode Scanners",
+      "badge": "Desktop / presentation scanner",
+      "description": "Penguin design; image 640×480 pixels; scan rate 30 fps/s; reads all main 1D/2D/QR; minimum resolution 5 mil; USB/RS-232/USB-VCOM.",
+      "highlights": [
+        "1D/2D/QR",
+        "1D/2D",
+        "USB",
+        "RS-232",
+        "USB-VCOM"
+      ],
+      "specs": {
+        "Technology": "Desktop / presentation scanner",
+        "Details": "Penguin design; image 640×480 pixels; scan rate 30 fps/s; reads all main 1D/2D/QR; minimum resolution 5 mil; USB/RS-232/USB-VCOM."
+      },
+      "stock": "",
+      "price": "",
+      "seoTitle": "HENEX H2200 | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/henex-h2200.webp"
+    },
+    {
+      "id": "henex-h1200r",
+      "model": "H1200R",
+      "brand": "HENEX",
+      "name": "HENEX H1200R Wireless 1D/2D/QR Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanners",
+      "subCategory": "wireless-barcode-scanners",
+      "subCategoryName": "Wireless Barcode Scanners",
+      "badge": "Wireless handheld scanner",
+      "description": "2.4G, BLE 4.0 and Type-B; reads all main 1D/2D/QR; memory 51200 bits; working time 2-8 hours; charge time 2-3 hours.",
+      "highlights": [
+        "1D/2D/QR",
+        "1D/2D",
+        "2.4G"
+      ],
+      "specs": {
+        "Technology": "Wireless handheld scanner",
+        "Details": "2.4G, BLE 4.0 and Type-B; reads all main 1D/2D/QR; memory 51200 bits; working time 2-8 hours; charge time 2-3 hours."
+      },
+      "stock": "",
+      "price": "",
+      "seoTitle": "HENEX H1200R | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/henex-h1200r.webp"
+    },
+    {
+      "id": "henex-h3308rc",
+      "model": "H3308RC",
+      "brand": "HENEX",
+      "name": "HENEX H3308RC Wireless 1D/2D Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanners",
+      "subCategory": "wireless-barcode-scanners",
+      "subCategoryName": "Wireless Barcode Scanners",
+      "badge": "Wireless handheld scanner",
+      "description": "Reads 1D/2D codes from screen and paper including EAN-13, UPC, Code128/93, QR, PDF417, Data Matrix and OCR; communication: 2.4G, Bluetooth and USB Type-B cable.",
+      "highlights": [
+        "1D/2D",
+        "USB",
+        "Bluetooth",
+        "2.4G"
+      ],
+      "specs": {
+        "Technology": "Wireless handheld scanner",
+        "Details": "Reads 1D/2D codes from screen and paper including EAN-13, UPC, Code128/93, QR, PDF417, Data Matrix and OCR; communication: 2.4G, Bluetooth and USB Type-B cable."
+      },
+      "stock": "",
+      "price": "",
+      "seoTitle": "HENEX H3308RC | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/henex-h3308rc.webp"
+    },
+    {
+      "id": "henex-h310rc",
+      "model": "H310RC",
+      "brand": "HENEX",
+      "name": "HENEX H310RC Wireless 1D/2D Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanners",
+      "subCategory": "wireless-barcode-scanners",
+      "subCategoryName": "Wireless Barcode Scanners",
+      "badge": "Wireless handheld scanner",
+      "description": "Reads 1D/2D codes from screen and paper including EAN-13, UPC, Code128/93, QR, PDF417, Data Matrix and OCR; communication: 2.4G, Bluetooth and USB Type-C cable.",
+      "highlights": [
+        "1D/2D",
+        "USB",
+        "Bluetooth",
+        "2.4G"
+      ],
+      "specs": {
+        "Technology": "Wireless handheld scanner",
+        "Details": "Reads 1D/2D codes from screen and paper including EAN-13, UPC, Code128/93, QR, PDF417, Data Matrix and OCR; communication: 2.4G, Bluetooth and USB Type-C cable."
+      },
+      "stock": "",
+      "price": "",
+      "seoTitle": "HENEX H310RC | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/henex-h310rc.webp"
+    },
+    {
+      "id": "henex-h310r",
+      "model": "H310R",
+      "brand": "HENEX",
+      "name": "HENEX H310R Wireless 1D/2D Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanners",
+      "subCategory": "wireless-barcode-scanners",
+      "subCategoryName": "Wireless Barcode Scanners",
+      "badge": "Wireless handheld scanner",
+      "description": "Reads 1D/2D codes from screen and paper including EAN-13, UPC, Code128/93, QR, PDF417, Data Matrix and OCR; communication: 2.4G, Bluetooth and USB Type-C cable.",
+      "highlights": [
+        "1D/2D",
+        "USB",
+        "Bluetooth",
+        "2.4G"
+      ],
+      "specs": {
+        "Technology": "Wireless handheld scanner",
+        "Details": "Reads 1D/2D codes from screen and paper including EAN-13, UPC, Code128/93, QR, PDF417, Data Matrix and OCR; communication: 2.4G, Bluetooth and USB Type-C cable."
+      },
+      "stock": "",
+      "price": "",
+      "seoTitle": "HENEX H310R | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/henex-h310r.webp"
+    },
+    {
+      "id": "henex-h310",
+      "model": "H310",
+      "brand": "HENEX",
+      "name": "HENEX H310 1D/2D Handheld Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanners",
+      "subCategory": "handheld-barcode-scanners",
+      "subCategoryName": "Handheld Barcode Scanners",
+      "badge": "Wired handheld scanner",
+      "description": "Reads 1D/2D codes from screen and paper including EAN-13, UPC, Code128/93, QR, PDF417, Data Matrix and OCR; supports Alipay/WeChat Pay, multilingual setting, data upload and memory; USB/RS-232/USB-VCOM.",
+      "highlights": [
+        "1D/2D",
+        "USB",
+        "RS-232",
+        "USB-VCOM"
+      ],
+      "specs": {
+        "Technology": "Wired handheld scanner",
+        "Details": "Reads 1D/2D codes from screen and paper including EAN-13, UPC, Code128/93, QR, PDF417, Data Matrix and OCR; supports Alipay/WeChat Pay, multilingual setting, data upload and memory; USB/RS-232/USB-VCOM."
+      },
+      "stock": "",
+      "price": "",
+      "seoTitle": "HENEX H310 | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/henex-h310.webp"
+    },
+    {
+      "id": "henex-h8000",
+      "model": "H8000",
+      "brand": "HENEX",
+      "name": "HENEX H8000 High-Speed 1D/2D Desktop Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanners",
+      "subCategory": "desktop-barcode-scanners",
+      "subCategoryName": "Desktop Barcode Scanners",
+      "badge": "Desktop barcode scanner",
+      "description": "Reads all 1D/2D codes on screen and paper; directions with 20 lines; scan rate 1500 scans/sec; minimum resolution 4 mil; supports USB, USB-VCOM, RS-232 and RJ45-USB.",
+      "highlights": [
+        "1D/2D",
+        "USB",
+        "RS-232",
+        "USB-VCOM"
+      ],
+      "specs": {
+        "Technology": "Desktop barcode scanner",
+        "Details": "Reads all 1D/2D codes on screen and paper; directions with 20 lines; scan rate 1500 scans/sec; minimum resolution 4 mil; supports USB, USB-VCOM, RS-232 and RJ45-USB."
+      },
+      "stock": "",
+      "price": "",
+      "seoTitle": "HENEX H8000 | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/henex-h8000.webp"
+    },
+    {
+      "id": "henex-h500",
+      "model": "H500",
+      "brand": "HENEX",
+      "name": "HENEX H500 Wireless 1D/2D Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanners",
+      "subCategory": "wireless-barcode-scanners",
+      "subCategoryName": "Wireless Barcode Scanners",
+      "badge": "Wireless handheld scanner",
+      "description": "Reads 1D/2D codes from screen and paper including EAN-13, UPC, Code128/93, QR, PDF417, Data Matrix and OCR; communication: 2.4G, Bluetooth and NFC; distance without obstacle: 2.4G 100 m, Bluetooth 40 m.",
+      "highlights": [
+        "1D/2D",
+        "Bluetooth",
+        "2.4G",
+        "NFC"
+      ],
+      "specs": {
+        "Technology": "Wireless handheld scanner",
+        "Details": "Reads 1D/2D codes from screen and paper including EAN-13, UPC, Code128/93, QR, PDF417, Data Matrix and OCR; communication: 2.4G, Bluetooth and NFC; distance without obstacle: 2.4G 100 m, Bluetooth 40 m."
+      },
+      "stock": "",
+      "price": "",
+      "seoTitle": "HENEX H500 | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/henex-h500.webp"
+    },
+    {
+      "id": "henex-h300r",
+      "model": "H300R",
+      "brand": "HENEX",
+      "name": "HENEX H300R Wireless 1D/2D/QR Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanners",
+      "subCategory": "wireless-barcode-scanners",
+      "subCategoryName": "Wireless Barcode Scanners",
+      "badge": "Wireless handheld scanner",
+      "description": "2.4G, BLE 4.0 and Type-C; reads all main 1D/2D/QR; memory 51200 bits; working time 2-8 hours; charge time 2-3 hours; rechargeable lithium battery 500 mAh.",
+      "highlights": [
+        "1D/2D/QR",
+        "1D/2D",
+        "2.4G"
+      ],
+      "specs": {
+        "Technology": "Wireless handheld scanner",
+        "Details": "2.4G, BLE 4.0 and Type-C; reads all main 1D/2D/QR; memory 51200 bits; working time 2-8 hours; charge time 2-3 hours; rechargeable lithium battery 500 mAh."
+      },
+      "stock": "",
+      "price": "",
+      "seoTitle": "HENEX H300R | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/henex-h300r.webp"
+    },
+    {
+      "id": "xprinter-xp-tt426b",
+      "model": "XP-TT426B",
+      "brand": "Xprinter",
+      "name": "Xprinter XP-TT426B 4-Inch Barcode Label Printer",
+      "category": "pos",
+      "categoryName": "Printers",
+      "subCategory": "barcode-label-printers",
+      "subCategoryName": "Barcode & Label Printers",
+      "badge": "Direct Thermal / Thermal Transfer",
+      "description": "USB, LAN, 203 DPI, Direct Thermal / Thermal Transfer, max print speed 127 mm/s, max paper width 108±0.5 mm, TSPL/EPL/DPL/ZPL emulation, Windows/Linux/Mac.",
+      "highlights": [
+        "USB",
+        "LAN",
+        "Direct Thermal",
+        "Thermal Transfer",
+        "203 DPI"
+      ],
+      "specs": {
+        "Technology": "Direct Thermal / Thermal Transfer",
+        "Details": "USB, LAN, 203 DPI, Direct Thermal / Thermal Transfer, max print speed 127 mm/s, max paper width 108±0.5 mm, TSPL/EPL/DPL/ZPL emulation, Windows/Linux/Mac."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "Xprinter XP-TT426B | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/xprinter-xp-tt426b.webp"
+    },
+    {
+      "id": "zebra-zd-888t",
+      "model": "ZD-888T",
+      "brand": "Zebra",
+      "name": "Zebra ZD-888T Thermal Transfer Barcode Label Printer",
+      "category": "pos",
+      "categoryName": "Printers",
+      "subCategory": "barcode-label-printers",
+      "subCategoryName": "Barcode & Label Printers",
+      "badge": "Direct Thermal / Thermal Transfer",
+      "description": "USB, 203 DPI, Direct Thermal & Thermal Transfer, max 152 mm/s, max paper width 104 mm, ESC/POS compatible, Windows/Linux.",
+      "highlights": [
+        "USB",
+        "Direct Thermal",
+        "Thermal Transfer",
+        "203 DPI"
+      ],
+      "specs": {
+        "Technology": "Direct Thermal / Thermal Transfer",
+        "Details": "USB, 203 DPI, Direct Thermal & Thermal Transfer, max 152 mm/s, max paper width 104 mm, ESC/POS compatible, Windows/Linux."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "Zebra ZD-888T | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/zebra-zd-888t.webp"
+    },
+    {
+      "id": "xprinter-xp-t361u",
+      "model": "XP-T361U",
+      "brand": "Xprinter",
+      "name": "Xprinter XP-T361U 80mm Direct Thermal Receipt Printer",
+      "category": "pos",
+      "categoryName": "Printers",
+      "subCategory": "receipt-bill-printers",
+      "subCategoryName": "Receipt / Bill Printers",
+      "badge": "Direct Thermal",
+      "description": "USB, auto cut, 203 DPI, Direct Thermal, max print speed 127 mm/s, max paper width 79.5±0.5 mm (80 mm), ESC/POS compatible, Windows/Linux.",
+      "highlights": [
+        "USB",
+        "Auto Cut",
+        "Direct Thermal",
+        "203 DPI"
+      ],
+      "specs": {
+        "Technology": "Direct Thermal",
+        "Details": "USB, auto cut, 203 DPI, Direct Thermal, max print speed 127 mm/s, max paper width 79.5±0.5 mm (80 mm), ESC/POS compatible, Windows/Linux."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "Xprinter XP-T361U | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/xprinter-xp-t361u.webp"
+    },
+    {
+      "id": "xprinter-xp-a160h",
+      "model": "XP-A160H",
+      "brand": "Xprinter",
+      "name": "Xprinter XP-A160H 80mm Direct Thermal Receipt Printer",
+      "category": "pos",
+      "categoryName": "Printers",
+      "subCategory": "receipt-bill-printers",
+      "subCategoryName": "Receipt / Bill Printers",
+      "badge": "Direct Thermal",
+      "description": "USB, auto cut, 203 DPI, Direct Thermal, max print speed 160 mm/s, max paper width 79.5±0.5 mm (80 mm), ESC/POS compatible, Windows/Linux.",
+      "highlights": [
+        "USB",
+        "Auto Cut",
+        "Direct Thermal",
+        "203 DPI"
+      ],
+      "specs": {
+        "Technology": "Direct Thermal",
+        "Details": "USB, auto cut, 203 DPI, Direct Thermal, max print speed 160 mm/s, max paper width 79.5±0.5 mm (80 mm), ESC/POS compatible, Windows/Linux."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "Xprinter XP-A160H | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/xprinter-xp-a160h.webp"
+    },
+    {
+      "id": "xprinter-xp-q200",
+      "model": "XP-Q200",
+      "brand": "Xprinter",
+      "name": "Xprinter XP-Q200 80mm LAN Thermal Receipt Printer",
+      "category": "pos",
+      "categoryName": "Printers",
+      "subCategory": "receipt-bill-printers",
+      "subCategoryName": "Receipt / Bill Printers",
+      "badge": "Direct Thermal",
+      "description": "USB, LAN, auto cut, 576 DPL, Direct Thermal, max print speed 200 mm/s, max paper width 79.5±0.5 mm (80 mm), ESC/POS compatible, Windows/Linux/OPOS.",
+      "highlights": [
+        "USB",
+        "LAN",
+        "Auto Cut",
+        "Direct Thermal",
+        "576 DPL"
+      ],
+      "specs": {
+        "Technology": "Direct Thermal",
+        "Details": "USB, LAN, auto cut, 576 DPL, Direct Thermal, max print speed 200 mm/s, max paper width 79.5±0.5 mm (80 mm), ESC/POS compatible, Windows/Linux/OPOS."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "Xprinter XP-Q200 | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/xprinter-xp-q200.webp"
+    },
+    {
+      "id": "xprinter-xp-t80a",
+      "model": "XP-T80A",
+      "brand": "Xprinter",
+      "name": "Xprinter XP-T80A LAN Direct Thermal Receipt Printer",
+      "category": "pos",
+      "categoryName": "Printers",
+      "subCategory": "receipt-bill-printers",
+      "subCategoryName": "Receipt / Bill Printers",
+      "badge": "Direct Thermal",
+      "description": "USB, LAN, auto cut, 512 DPL, Direct Thermal, max print speed 160 mm/s, max paper width 72±0.5 mm, Windows/Linux.",
+      "highlights": [
+        "USB",
+        "LAN",
+        "Auto Cut",
+        "Direct Thermal",
+        "512 DPL"
+      ],
+      "specs": {
+        "Technology": "Direct Thermal",
+        "Details": "USB, LAN, auto cut, 512 DPL, Direct Thermal, max print speed 160 mm/s, max paper width 72±0.5 mm, Windows/Linux."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "Xprinter XP-T80A | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/xprinter-xp-t80a.webp"
+    },
+    {
+      "id": "xprinter-xp-80t",
+      "model": "XP-80T",
+      "brand": "Xprinter",
+      "name": "Xprinter XP-80T LAN Direct Thermal Receipt Printer",
+      "category": "pos",
+      "categoryName": "Printers",
+      "subCategory": "receipt-bill-printers",
+      "subCategoryName": "Receipt / Bill Printers",
+      "badge": "Direct Thermal",
+      "description": "USB, LAN, auto cut, 512 DPL, Direct Thermal, max print speed 200 mm/s, max paper width 72±0.5 mm, Windows/Linux.",
+      "highlights": [
+        "USB",
+        "LAN",
+        "Auto Cut",
+        "Direct Thermal",
+        "512 DPL"
+      ],
+      "specs": {
+        "Technology": "Direct Thermal",
+        "Details": "USB, LAN, auto cut, 512 DPL, Direct Thermal, max print speed 200 mm/s, max paper width 72±0.5 mm, Windows/Linux."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "Xprinter XP-80T | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/xprinter-xp-80t.webp"
+    },
+    {
+      "id": "epson-tm-t100",
+      "model": "TM-T100",
+      "brand": "Epson",
+      "name": "Epson TM-T100 Direct Thermal Receipt Printer",
+      "category": "pos",
+      "categoryName": "Printers",
+      "subCategory": "receipt-bill-printers",
+      "subCategoryName": "Receipt / Bill Printers",
+      "badge": "Direct Thermal",
+      "description": "USB, Serial, auto cut, 203 DPI, Direct Thermal, max print speed 200 mm/s, max paper width 72±0.5 mm, Windows/Linux.",
+      "highlights": [
+        "USB",
+        "Auto Cut",
+        "Direct Thermal",
+        "203 DPI"
+      ],
+      "specs": {
+        "Technology": "Direct Thermal",
+        "Details": "USB, Serial, auto cut, 203 DPI, Direct Thermal, max print speed 200 mm/s, max paper width 72±0.5 mm, Windows/Linux."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "Epson TM-T100 | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/epson-tm-t100.webp"
+    },
+    {
+      "id": "xprinter-xp-p810",
+      "model": "XP-P810",
+      "brand": "Xprinter",
+      "name": "Xprinter XP-P810 80mm Bluetooth Mobile Thermal Printer",
+      "category": "pos",
+      "categoryName": "Printers",
+      "subCategory": "mobile-printers",
+      "subCategoryName": "Mobile Printers",
+      "badge": "Direct Thermal",
+      "description": "Direct thermal; printing width 79.5±0.5 mm; speed 70 mm/s; USB+Bluetooth; gross weight 325 g; dimensions 136×116×60 mm.",
+      "highlights": [
+        "USB",
+        "Bluetooth",
+        "Direct Thermal"
+      ],
+      "specs": {
+        "Technology": "Direct Thermal",
+        "Details": "Direct thermal; printing width 79.5±0.5 mm; speed 70 mm/s; USB+Bluetooth; gross weight 325 g; dimensions 136×116×60 mm."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "Xprinter XP-P810 | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/xprinter-xp-p810.webp"
+    },
+    {
+      "id": "xprinter-xp-p300",
+      "model": "XP-P300",
+      "brand": "Xprinter",
+      "name": "Xprinter XP-P300 58mm Bluetooth Mobile Thermal Printer",
+      "category": "pos",
+      "categoryName": "Printers",
+      "subCategory": "mobile-printers",
+      "subCategoryName": "Mobile Printers",
+      "badge": "Direct Thermal",
+      "description": "Direct thermal; printing width 58±0.5 mm; speed 70 mm/s; USB+Bluetooth; gross weight 213 g; dimensions 153×84.7×58.5 mm.",
+      "highlights": [
+        "USB",
+        "Bluetooth",
+        "Direct Thermal"
+      ],
+      "specs": {
+        "Technology": "Direct Thermal",
+        "Details": "Direct thermal; printing width 58±0.5 mm; speed 70 mm/s; USB+Bluetooth; gross weight 213 g; dimensions 153×84.7×58.5 mm."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "Xprinter XP-P300 | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/xprinter-xp-p300.webp"
+    },
+    {
+      "id": "xprinter-xp-p502a",
+      "model": "XP-P502A",
+      "brand": "Xprinter",
+      "name": "Xprinter XP-P502A 58mm Bluetooth Mobile Thermal Printer",
+      "category": "pos",
+      "categoryName": "Printers",
+      "subCategory": "mobile-printers",
+      "subCategoryName": "Mobile Printers",
+      "badge": "Direct Thermal",
+      "description": "Direct thermal; printing width 58±0.5 mm; speed 70 mm/s; USB+Bluetooth; gross weight 237 g; dimensions 124×91×58.4 mm.",
+      "highlights": [
+        "USB",
+        "Bluetooth",
+        "Direct Thermal"
+      ],
+      "specs": {
+        "Technology": "Direct Thermal",
+        "Details": "Direct thermal; printing width 58±0.5 mm; speed 70 mm/s; USB+Bluetooth; gross weight 237 g; dimensions 124×91×58.4 mm."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "Xprinter XP-P502A | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/xprinter-xp-p502a.webp"
+    },
+    {
+      "id": "tovi-350e",
+      "model": "350E",
+      "brand": "TOVI",
+      "name": "TOVI 350E Dual Display POS Terminal with Built-in 80mm Printer",
+      "category": "pos",
+      "categoryName": "POS Systems",
+      "subCategory": "pos-terminals",
+      "subCategoryName": "POS Terminals",
+      "badge": "POS Terminal",
+      "description": "Main display 15.6-inch 1366×768 capacitive touch; customer display 15.6-inch LED; Core i5-4310M, 8 GB RAM, 256 GB SSD; built-in 80 mm direct thermal printer; silver and black.",
+      "highlights": [
+        "Direct Thermal"
+      ],
+      "specs": {
+        "Technology": "POS Terminal",
+        "Details": "Main display 15.6-inch 1366×768 capacitive touch; customer display 15.6-inch LED; Core i5-4310M, 8 GB RAM, 256 GB SSD; built-in 80 mm direct thermal printer; silver and black."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "TOVI 350E | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/tovi-350e.webp"
+    },
+    {
+      "id": "tovi-pd220v-iii",
+      "model": "PD220V-III",
+      "brand": "TOVI",
+      "name": "TOVI PD220V-III VFD Customer Display",
+      "category": "pos",
+      "categoryName": "POS Accessories",
+      "subCategory": "customer-displays",
+      "subCategoryName": "Customer Displays",
+      "badge": "Customer Display",
+      "description": "Vacuum fluorescent display; 40 characters (20×2); 5×7 dot matrix font; input power 5V-24V 2A; USB.",
+      "highlights": [
+        "USB"
+      ],
+      "specs": {
+        "Technology": "Customer Display",
+        "Details": "Vacuum fluorescent display; 40 characters (20×2); 5×7 dot matrix font; input power 5V-24V 2A; USB."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "TOVI PD220V-III VFD Customer Display | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/tovi-pd220v-iii.webp"
+    },
+    {
+      "id": "tovi-ta2",
+      "model": "TA2",
+      "brand": "TOVI",
+      "name": "TOVI TA2 Wired 2D Handheld Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanners",
+      "subCategory": "handheld-barcode-scanners",
+      "subCategoryName": "Handheld Barcode Scanners",
+      "badge": "Optical wired handheld scanner",
+      "description": "Optical handheld, wired, automatic 2D barcode reader.",
+      "highlights": [],
+      "specs": {
+        "Technology": "Optical wired handheld scanner",
+        "Details": "Optical handheld, wired, automatic 2D barcode reader."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "TOVI TA2 | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/tovi-ta2.webp"
+    },
+    {
+      "id": "generic-barcode-scanner-stand",
+      "model": "BARCODE SCANNER STAND",
+      "brand": "Generic",
+      "name": "Barcode Scanner Stand for Handheld Readers",
+      "category": "pos",
+      "categoryName": "Barcode Scanner Accessories",
+      "subCategory": "scanner-stands",
+      "subCategoryName": "Scanner Stands",
+      "badge": "Scanner Stand",
+      "description": "Stand for wired and wireless handheld barcode readers.",
+      "highlights": [],
+      "specs": {
+        "Technology": "Scanner Stand",
+        "Details": "Stand for wired and wireless handheld barcode readers."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "Generic BARCODE SCANNER STAND | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/generic-barcode-scanner-stand.webp"
+    },
+    {
+      "id": "tovi-at-600",
+      "model": "AT-600",
+      "brand": "TOVI",
+      "name": "TOVI AT-600 Automatic 1D/2D Desktop Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanners",
+      "subCategory": "desktop-barcode-scanners",
+      "subCategoryName": "Desktop Barcode Scanners",
+      "badge": "Optical desktop scanner",
+      "description": "Optical desk-mount, wired, automatic 1D/2D barcode scanner.",
+      "highlights": [
+        "1D/2D"
+      ],
+      "specs": {
+        "Technology": "Optical desktop scanner",
+        "Details": "Optical desk-mount, wired, automatic 1D/2D barcode scanner."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "TOVI AT-600 | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/tovi-at-600.webp"
+    },
+    {
+      "id": "honeywell-hf-680",
+      "model": "HF-680",
+      "brand": "Honeywell",
+      "name": "Honeywell HF-680 Automatic 1D/2D Desktop Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanners",
+      "subCategory": "desktop-barcode-scanners",
+      "subCategoryName": "Desktop Barcode Scanners",
+      "badge": "Optical desktop scanner",
+      "description": "Optical desk-mount, wired, automatic 1D/2D barcode scanner.",
+      "highlights": [
+        "1D/2D"
+      ],
+      "specs": {
+        "Technology": "Optical desktop scanner",
+        "Details": "Optical desk-mount, wired, automatic 1D/2D barcode scanner."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "Honeywell HF-680 | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/honeywell-hf-680.webp"
+    },
+    {
+      "id": "zebra-ds9308",
+      "model": "DS9308",
+      "brand": "Zebra",
+      "name": "Zebra DS9308 Automatic 1D/2D Desktop Barcode Scanner",
+      "category": "pos",
+      "categoryName": "Barcode Scanners",
+      "subCategory": "desktop-barcode-scanners",
+      "subCategoryName": "Desktop Barcode Scanners",
+      "badge": "Optical desktop scanner",
+      "description": "Optical desk-mount, wired, automatic 1D/2D barcode scanner.",
+      "highlights": [
+        "1D/2D"
+      ],
+      "specs": {
+        "Technology": "Optical desktop scanner",
+        "Details": "Optical desk-mount, wired, automatic 1D/2D barcode scanner."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "Zebra DS9308 | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/zebra-ds9308.webp"
+    },
+    {
+      "id": "generic-5kg",
+      "model": "5kg",
+      "brand": "Generic",
+      "name": "5 kg POS Cash Drawer",
+      "category": "pos",
+      "categoryName": "POS Accessories",
+      "subCategory": "cash-drawers",
+      "subCategoryName": "Cash Drawers",
+      "badge": "Cash Drawer",
+      "description": "Black; 12 V voltage drive; 3-position lock; 5 adjustable bill compartments; 5 adjustable coin compartments.",
+      "highlights": [],
+      "specs": {
+        "Technology": "Cash Drawer",
+        "Details": "Black; 12 V voltage drive; 3-position lock; 5 adjustable bill compartments; 5 adjustable coin compartments."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "5 kg POS Cash Drawer | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/generic-5kg.webp"
+    },
+    {
+      "id": "generic-6-5kg",
+      "model": "6.5kg",
+      "brand": "Generic",
+      "name": "6.5 kg POS Cash Drawer",
+      "category": "pos",
+      "categoryName": "POS Accessories",
+      "subCategory": "cash-drawers",
+      "subCategoryName": "Cash Drawers",
+      "badge": "Cash Drawer",
+      "description": "Black; 12 V voltage drive; 3-position lock; 5 adjustable bill compartments; 5 adjustable coin compartments.",
+      "highlights": [],
+      "specs": {
+        "Technology": "Cash Drawer",
+        "Details": "Black; 12 V voltage drive; 3-position lock; 5 adjustable bill compartments; 5 adjustable coin compartments."
+      },
+      "stock": "Ex-Stock",
+      "price": "",
+      "seoTitle": "6.5 kg POS Cash Drawer | AMT Solutions Sri Lanka",
+      "image": "/assets/img/products/generic-6-5kg.webp"
     }
   ]
 }
