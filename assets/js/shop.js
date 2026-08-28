@@ -164,18 +164,20 @@
 
       const highlightsList = (p.highlights || []).slice(0, 3).map(h => `<li>${escapeHtml(h)}</li>`).join('');
 
+      const productUrl = `/shop/${p.id}/`;
+
       return `
         <article class="shop-card" data-product-id="${p.id}" id="product-${p.id}">
-          <div class="shop-card-media" onclick="window.shopApp.openProductModal('${p.id}')">
+          <a href="${productUrl}" class="shop-card-link-wrapper shop-card-media" data-modal-trigger="${p.id}">
             <span class="shop-badge">${escapeHtml(p.badge || p.subCategoryName)}</span>
             <img src="${p.image}" alt="${escapeHtml(p.brand)} ${escapeHtml(p.model)} ${escapeHtml(p.badge || 'Product')}" 
                  class="shop-card-img" width="400" height="400" loading="lazy" decoding="async" 
                  onerror="this.onerror=null;this.src='/assets/img/products/product-placeholder.jpg';">
             <span class="shop-card-view-btn">View Specifications</span>
-          </div>
+          </a>
           <div class="shop-card-body">
             <div class="shop-card-category">${escapeHtml(p.brand)} · ${escapeHtml(p.subCategoryName)}</div>
-            <h3 class="shop-card-model" onclick="window.shopApp.openProductModal('${p.id}')">${escapeHtml(p.model)}</h3>
+            <a href="${productUrl}" class="shop-card-link-wrapper" data-modal-trigger="${p.id}"><h3 class="shop-card-model">${escapeHtml(p.model)}</h3></a>
             <h4 class="shop-card-name">${escapeHtml(p.name)}</h4>
             
             <ul class="shop-card-highlights">
@@ -194,9 +196,9 @@
                 </svg>
                 WhatsApp Inquiry
               </a>
-              <button type="button" class="button button-small button-secondary shop-btn-details" onclick="window.shopApp.openProductModal('${p.id}')">
+              <a href="${productUrl}" class="button button-small button-secondary shop-btn-details" data-modal-trigger="${p.id}">
                 Specs &amp; Quote
-              </button>
+              </a>
             </div>
           </div>
         </article>
@@ -374,6 +376,16 @@
         }
       });
     }
+
+    // Intercept clicks on links with data-modal-trigger
+    document.addEventListener('click', (e) => {
+      const trigger = e.target.closest('[data-modal-trigger]');
+      if (trigger) {
+        e.preventDefault();
+        const productId = trigger.getAttribute('data-modal-trigger');
+        openProductModal(productId);
+      }
+    });
 
     // Modal close
     if (elements.modalClose) {
